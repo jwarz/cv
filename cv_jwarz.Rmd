@@ -1,0 +1,214 @@
+---
+output:
+  pagedown::html_paged:
+    css: ["css/cv_jwarz.css",  "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
+    number_sections: false
+links-to-footnotes: true
+knit: pagedown::chrome_print
+---
+
+<!-- Load CSS & Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
+
+<style>
+/*Set Last updated value*/
+:root{
+  --last-updated: " \00a0 \00a0 \00a0 \00a0 Last updated: April 2022";
+}
+
+/*boxes*/
+#wrapper{
+  display: grid;
+  grid-template-columns: 65% 1fr;
+}
+#left {
+  grid-column:1;
+}
+
+#right {
+  grid-column:2;
+  overflow: hidden;
+  border: 2px blue solid;
+}
+.custom-title {
+
+	font-family: 'Raleway';
+	font-weight: 600;
+	font-size: 2rem;
+	text-transform: uppercase;
+	color: black;
+	letter-spacing: 0.3rem;
+
+	margin: 0;
+}
+
+.custom-subtitle {
+
+	font-family: 'Raleway';
+	font-size: 1em;
+	font-weight: 100;
+	color: #666666;
+
+	margin: 10 0 10 0;
+
+}
+
+.custom-table {
+	
+	width:100%; 
+	font-family: 'Raleway';
+	font-weight: 400;
+	font-size: 0.7rem;
+
+}
+/*
+p, ul {
+
+font-family: 'Raleway';
+font-weight: 400;
+font-size: 0.7rem;
+
+}
+*/
+</style>
+
+<div style="border: 2px red solid;; height: 100%; margin:15px">
+<div id="wrapper">
+<div id="left">
+<p class="custom-title">Joschka </br> Schwarz</p>
+<p class="custom-subtitle">BUSINESS ADMINISTRATION & ENGINEERING, M. Sc.<p>
+<table class="custom-table">
+<tr>
+<td><i class="fa fa-envelope fa-fw"></i><a href="mailto:joschka.schwarz@tuhh.de">&nbsp;joschka.schwarz@tuhh.de</a></td>
+<td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
+</tr>
+<tr>
+<td><i class="fa-brands fa-github fa-fw"></i><a href="https://github.com/jwarz">&nbsp;github.com/jwarz</a></td>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a href="https://linkedin.com/in/joschka-schwarz">&nbsp;linkedin.com/in/joschka-schwarz</a></td>
+</tr>
+<tr>
+<td><i class="fas fa-file-pdf fa-fw"></i><a href="https://github.com/jwarz">&nbsp;A PDF version is available</a></td>
+</tr>
+</table>
+</div>
+<div id="right">Right side div</div>
+</div>
+<hr style="margin: 20 0 20 0;">
+<p>Curiosity has afforded me opportunities to work at large organizations, with start-ups and in academia. Because of this varied career path, I became a Data Scientist with expertise in quantitative modeling and experience of building products, growing people and making data-informed decisions. Currently, I am working as a <b>Research Associate at TU Hamburg</b>, Germany, conducting research as member of both the <b>Entrepreneurship & Data Science</b> groups to guarantee a wide berth of knowledge about all areas. But now it is time for the next logical step in my career.</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity and international sales. As a <b>(Senior) Data Analyst / Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on.</p>
+<hr style="margin: 20 0 20 0;">
+<!-- Contact -->
+<h2>Experience</h2>
+<!-- Exp 1 -->
+<div style="margin-left: 0.7cm;">
+<p style="margin-bottom: 0px; text-align:left;">
+<span><b>Hamburg University of Technology, </b>
+</span><span>Hamburg, Germany</span>
+<span style="float:right;">06/2018 - Present</span>
+</p>
+<p style="margin-top: 0px;">
+<i>Research Assistant & Doctoral Candidate</i>
+</p>
+<p>Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>First element</li>
+<li>Second element</li>
+</ul>
+</p>
+</div>
+<!-- Exp 2 -->
+<div style="margin-left: 0.7cm;">
+<p style="margin-bottom: 0px; text-align:left;">
+<span><b>Hamburg University of Technology, </b>
+</span><span>Hamburg, Germany</span>
+<span style="float:right;">06/2018 - Present</span>
+</p>
+<p style="margin-top: 0px;">
+<i>Research Assistant & Doctoral Candidate</i>
+</p>
+<p>Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>First element</li>
+<li>Second element</li>
+</ul>
+</p>
+</div>
+<!-- Exp 3 -->
+<div style="margin-left: 0.7cm;">
+<p style="margin-bottom: 0px; text-align:left;">
+<span><b>Hamburg University of Technology, </b>
+</span><span>Hamburg, Germany</span>
+<span style="float:right;">06/2018 - Present</span>
+</p>
+<p style="margin-top: 0px;">
+<i>Research Assistant & Doctoral Candidate</i>
+</p>
+<p>Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>First element</li>
+<li>Second element</li>
+</ul>
+</p>
+</div>
+<!-- Exp 4 -->
+<div style="margin-left: 0.7cm;">
+<p style="margin-bottom: 0px; text-align:left;">
+<span><b>Hamburg University of Technology, </b>
+</span><span>Hamburg, Germany</span>
+<span style="float:right;">06/2018 - Present</span>
+</p>
+<p style="margin-top: 0px;">
+<i>Research Assistant & Doctoral Candidate</i>
+</p>
+<p>Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>First element</li>
+<li>Second element</li>
+</ul>
+</p>
+</div>
+<!-- Exp 5 -->
+<div style="margin-left: 0.7cm;">
+<p style="margin-bottom: 0px; text-align:left;">
+<span><b>Hamburg University of Technology, </b>
+</span><span>Hamburg, Germany</span>
+<span style="float:right;">06/2018 - Present</span>
+</p>
+<p style="margin-top: 0px;">
+<i>Research Assistant & Doctoral Candidate</i>
+</p>
+<p>Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>First element</li>
+<li>Second element</li>
+</ul>
+</p>
+</div>
+<!-- Contact -->
+<h2>Experience</h2>
+<!-- Exp 1 -->
+<div style="margin-left: 0.7cm;">
+<p style="margin-bottom: 0px; text-align:left;">
+<span><b>Hamburg University of Technology, </b>
+</span><span>Hamburg, Germany</span>
+<span style="float:right;">06/2018 - Present</span>
+</p>
+<p style="margin-top: 0px;">
+<i>Research Assistant & Doctoral Candidate</i>
+</p>
+<p>Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>First element</li>
+<li>Second element</li>
+</ul>
+</p>
+</div>
+</div>

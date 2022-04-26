@@ -7,8 +7,8 @@
   --page-width: 210mm;
   --pagedjs-margin-right: 5mm;
   --pagedjs-margin-left: 5mm;
-  --pagedjs-margin-top: 5mm;
-  --pagedjs-margin-bottom: 5mm;
+  --pagedjs-margin-top: 8mm;
+  --pagedjs-margin-bottom: 8mm;
   --root-font-size: 11pt;
   --viewer-pages-spacing: 12px;
   --viewer-shadow-color: #313131; /* this marks the pages */
@@ -48,11 +48,13 @@
   }
 
 body {
-  font-family: "Avenir";
+  font-family: "Raleway";
 }
 
 p, li {
   font-size: var(--root-font-size);
+  font-family: 'Raleway';
+  font-weight: 400;
   line-height: 125%;
 }
 
@@ -68,10 +70,7 @@ h3 {
   margin-left: var(--indentation);
   margin-bottom: 0.6em;
 }
-.conference-presentations-omitted {
-  margin-left: var(--indentation);
-  font-style: italic;
-}
+
 
 /****** Page numbers ******/
   @page {
@@ -81,14 +80,25 @@ h3 {
     @top-right {
       content: none;
     }
+    @bottom-center {
+      content: var(--last-updated);
+    }
     @bottom-right {
-      content: counter(page) var(--last-updated);
+      text-align: right;
+      content: "Page " counter(page);
     }
   }
 
 .pagedjs_margin-bottom-right {
-  text-align: left !important;
-  margin-left: var(--indentation);
+  text-align: right;
+  color: var(--my-darkgray);
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  margin-right:5mm;
+}
+
+.pagedjs_margin-bottom-center {
+  text-align: center;
   color: var(--my-darkgray);
   font-size: 0.8em;
   margin-bottom: 20px;
