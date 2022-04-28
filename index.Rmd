@@ -26,8 +26,8 @@ knit: pagedown::chrome_print
 <td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
 </tr>
 <tr>
-<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" href="https://linkedin.com/in/joschka-schwarz">&nbsp;linkedin.com/in/joschka-schwarz</a></td>
-<td><i class="fa-brands fa-github fa-fw"></i><a class="no-hyper" href="https://github.com/jwarz">&nbsp;github.com/jwarz</a></td>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" href="https://linkedin.com/in/j-schwarz">&nbsp;linkedin.com/in/j-schwarz</a></td>
+<td><i class="fa-brands fa-github fa-fw"></i><a class="no-hyper" href="https://github.com/jwarz/data-scientists-tools">&nbsp;github.com/jwarz/ds</a></td>
 </tr>
 </table>
 </div>
