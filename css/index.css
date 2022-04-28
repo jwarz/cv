@@ -1,3 +1,8 @@
+/*Set Last updated value*/
+:root{
+  --last-updated: " \00a0 \00a0 \00a0 \00a0 Last updated: April 2022";
+}
+
 /* THIS CREATES BASIC PAGED LAYOUT IN COMBINATION WITH PAGED.HTML */
   @page{
     size: A4 portrait;
@@ -5,6 +10,7 @@
 
 :root{
   --page-width: 210mm;
+  --page-height: 297mm;
   --pagedjs-margin-right: 5mm;
   --pagedjs-margin-left: 5mm;
   --pagedjs-margin-top: 8mm;
@@ -17,24 +23,24 @@
 }
 
 /* Paged.js viewer */
-  @media screen {
-    body {
-      background-color: var(--viewer-background-color);
-      margin: 0; /* for mobile */
-        width: calc(var(--pagedjs-width) + 2 * var(--viewer-pages-spacing)); /* for mobile */
-    }
-    .pagedjs_pages {
-      max-width: var(--pagedjs-width);
-      margin: 0 auto;
-      display: flex;
-      flex-direction: column;
-    }
-    .pagedjs_page {
-      box-shadow: 0 0 calc(0.66667 * var(--viewer-pages-spacing)) var(--viewer-shadow-color);
-      margin: var(--viewer-pages-spacing) 0;
-    }
+@media screen {
+  body {
+    background-color: var(--viewer-background-color);
+    margin: 0; /* for mobile */
+      width: calc(var(--pagedjs-width) + 2 * var(--viewer-pages-spacing)); /* for mobile */
   }
-@media screen and (min-width: 8.5in) {
+  .pagedjs_pages {
+    max-width: var(--pagedjs-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .pagedjs_page {
+    box-shadow: 0 0 calc(0.66667 * var(--viewer-pages-spacing)) var(--viewer-shadow-color);
+    margin: var(--viewer-pages-spacing) 0;
+  }
+}
+@media screen and (min-width: 210mm) {
   /* not a mobile */
     body {
       margin: auto;
@@ -43,9 +49,9 @@
 }
 
 /* create ability to insert pagebreaks with br.pagebreak */
-  br.pageBreak {
-    page-break-after: always;
-  }
+br.pageBreak {
+  page-break-after: always;
+}
 
 body {
   font-family: "Raleway";
@@ -53,202 +59,131 @@ body {
 
 p, li {
   font-size: var(--root-font-size);
-  font-family: 'Raleway';
   font-weight: 400;
   line-height: 125%;
 }
 
+hr {
+  margin: 20 0 20 0;
+}
+
 /* section headers */
-  h2 {
-    margin-top: 0.6em;
-    margin-bottom: 0.4em;
-    font-size: 1.5em;
-    font-weight: bold;
-    margin-left: var(--indentation);
-  }
+/*
+h2 {
+  margin-top: 0.6em;
+  margin-bottom: 0.4em;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-left: var(--indentation);
+}
 h3 {
   margin-left: var(--indentation);
   margin-bottom: 0.6em;
 }
+*/
 
-
-/****** Page numbers ******/
-  @page {
-    @top-left {
-      content: none;
-    }
-    @top-right {
-      content: none;
-    }
-    @bottom-center {
-      content: var(--last-updated);
-    }
-    @bottom-right {
-      text-align: right;
-      content: "Page " counter(page);
-    }
+/****** Page numbers and last updated ******/
+@page {
+  @top-left {
+    content: none;
   }
+  @top-right {
+    content: none;
+  }
+  @bottom-center {
+    content: var(--last-updated);
+  }
+  @bottom-right {
+    text-align: right;
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
 
-.pagedjs_margin-bottom-right {
-  text-align: right;
+.pagedjs_margin-bottom-right, 
+.pagedjs_margin-bottom-center{
   color: var(--my-darkgray);
   font-size: 0.8em;
   margin-bottom: 20px;
   margin-right:5mm;
 }
 
+.pagedjs_margin-bottom-right {
+  text-align: right;
+  margin-right:5mm;
+}
+
 .pagedjs_margin-bottom-center {
   text-align: center;
-  color: var(--my-darkgray);
-  font-size: 0.8em;
-  margin-bottom: 20px;
 }
 
-/***** STYLE HEADING    *******/
-  .title-and-contact {
-    display: grid;
-    grid-template-columns: 70% 30%;
-    border-style: none none groove none;
-    margin-bottom: 1.8em;
-    padding-bottom: 0.5em;
-  }
-
-.title h1 {
-  text-align: left;
-  font-size: 2.5em;
-  padding: 0;
-  margin: 0% 0% 0% 24.5%;
+/* PAGE */
+.cv-page-wrapper {
+  
+  height: 100%; 
+  margin:15px;
+  border: 2px red solid; 
+  
 }
 
-.contact-info a {
-  color: black;
-  text-decoration: none;
-}
-.contact-info {
-  font-size: 0.5em;
-  text-align: right;
-}
-
-/***** STYLE INTERESTS STATEMENT    *******/
-  /* research interests */
-  .research-interests {
-    display: grid;
-    grid-template-columns: 18.5% 81.5%;
-  }
-.interests p {
-  line-height: 135%;
-}
-.interests a {
-  text-decoration: none;
-}
-
-
-/***** STYLE CV ENTRIES    *******/
-  /* overall styling for cv-entries within a table */
-  /* don't make page breaks inside an entry */
-.cv-entries table {
-  border-spacing: 0;
-  margin: 0.1em 0 1.5em 0;
-  width: 100%;
-}
-
-.cv-entries thead {
-  display: none;
-}
-
-.cv-entries td {
-  vertical-align: top;
-  line-height: 125%;
-  padding-bottom: 0.5em;
-  font-size: var(--root-font-size);
-}
-
-.cv-entries tr {
-  break-inside: avoid;
-}
-
-
-
-/* make titles bold */
-.cv-entry-title {
-  font-weight: bold;
-}
-
-.cv-entries a,
-.footnotes a {
-  color: #005EA3;
-}
-
-/* footnote links */
-a.footnote-ref {
-  text-decoration: none;
-}  
-
-.footnote-ref sup {
-  vertical-align: top;
-  margin-left: 1px;
-  font-weight: normal;
-}
-
-/* basic styling for first column in two-column cv entries */
-.cv-entries td:first-child {
-  width: var(--indentation);
-  text-align: left;
-  color: var(--my-darkgray);
-  font-size: 10pt;
-}
-
-/* basic styling for two first columns in three-column cv entries */
-.cv-entries .three-split td:first-child {
-  width: 9%;
-  text-align: left;
-  color: var(--my-darkgray);
-}
-.cv-entries .three-split td:nth-child(2) {
-  width: 9%;
-  text-align: left;
-  color: var(--my-darkgray);
-  font-size: 10pt;
-}
-
-/*** style the publication entries ***/
-/* set width for the publication info statement */
-.grid-container-publications {
+/* HEADER */
+.cv-head-wrapper{
   display: grid;
-  grid-template-columns: 49% 51%;
+  grid-template-columns: 65% 1fr;
 }
-.conference-publication-heading h3 {
-  margin-block-start: 0 !important;
-  margin-top: 15px !important;
-  margin-left: 37%;
-}
-.conference-note h3 {
-  margin-block-start: 0 !important;
-  margin-top: 21px !important;
-  color: var(--my-darkgray);
-  font-size: 0.8em;
+.cv-head-left {
+  grid-column:1;
 }
 
-.review-note {
-  color: var(--my-darkgray);
-  font-size: 0.8em;
+.cv-head-right {
+  background-image: url('../profile.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column:2;
 }
 
-/* make award texts red */
-.publication-award {
-  color: #b8162b;
+.cv-title {
+
+	font-weight: 600;
+	font-size: 2rem;
+	color: black;
+	letter-spacing: 0.3rem;
+	margin: 0;
+	
 }
 
+.cv-subtitle {
 
-/* don't show a horizontal rule before the final links */
-/*  hr {
-    display: none;
-  }*/
+	font-size: 1em;
+	font-weight: 100;
+	color: #666666;
+	margin: 10 0 10 0;
 
-span.talk-title {
-  padding-top: 0.2em;
 }
 
-.cv-entry-translation {
-  font-style: italic;
+.cv-contact-table {
+	
+	width:100%; 
+	font-size: var(--root-font-size);
+	/*font-weight: 400;*/
+	/*font-size: 0.7rem;*/
+
+}
+
+.image { 
+  object-fit: cover;
+}
+
+.pimg {
+  padding: 0;
+}
+
+/*  CV entries   */
+.cv-entry {
+  
+}
+
+/* necessary for border at bottom of page */
+.cv-entry p {
+  margin-left: 7mm;
+  margin-bottom: 0px; 
 }
