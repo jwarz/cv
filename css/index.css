@@ -11,11 +11,11 @@
 :root{
   --page-width: 210mm;
   --page-height: 297mm;
-  --pagedjs-margin-right: 5mm;
-  --pagedjs-margin-left: 5mm;
-  --pagedjs-margin-top: 8mm;
-  --pagedjs-margin-bottom: 8mm;
-  --root-font-size: 11pt;
+  --pagedjs-margin-right: 15mm;
+  --pagedjs-margin-left: 15mm;
+  --pagedjs-margin-top: 18mm;
+  --pagedjs-margin-bottom: 10mm;
+  --root-font-size: 10pt;
   --viewer-pages-spacing: 12px;
   --viewer-shadow-color: #313131; /* this marks the pages */
     --my-darkgray: #929598;
@@ -25,7 +25,8 @@
 /* Paged.js viewer */
 @media screen {
   body {
-    background-color: var(--viewer-background-color);
+    /*background-color: var(--viewer-background-color);*/
+    background-color: rgb(220, 220, 220);
     margin: 0; /* for mobile */
       width: calc(var(--pagedjs-width) + 2 * var(--viewer-pages-spacing)); /* for mobile */
   }
@@ -36,6 +37,9 @@
     flex-direction: column;
   }
   .pagedjs_page {
+    background-color: rgba(0, 0, 0, 0);
+    background-image: linear-gradient(to left, rgb(255, 255, 255), rgb(255, 255, 255) calc(48px + 0rem), white calc(48px + 0rem));
+    
     box-shadow: 0 0 calc(0.66667 * var(--viewer-pages-spacing)) var(--viewer-shadow-color);
     margin: var(--viewer-pages-spacing) 0;
   }
@@ -57,10 +61,19 @@ body {
   font-family: "Raleway";
 }
 
-p, li {
+/* remove hyperlink */
+.no-hyper {
+  color: inherit;
+  text-decoration: none;
+}
+
+p, li, td {
   font-size: var(--root-font-size);
-  font-weight: 400;
-  line-height: 125%;
+  font-weight: 300;
+  /*line-height: 125%;*/
+  line-height: 1.2;
+  color: #444;
+  
 }
 
 hr {
@@ -120,8 +133,8 @@ h3 {
 .cv-page-wrapper {
   
   height: 100%; 
-  margin:15px;
-  border: 2px red solid; 
+  margin:5mm;
+  /*border: 2px red solid; */
   
 }
 
@@ -129,6 +142,7 @@ h3 {
 .cv-head-wrapper{
   display: grid;
   grid-template-columns: 65% 1fr;
+  margin-bottom: 20px;
 }
 .cv-head-left {
   grid-column:1;
@@ -156,7 +170,7 @@ h3 {
 	font-size: 1em;
 	font-weight: 100;
 	color: #666666;
-	margin: 10 0 10 0;
+	margin: 5px 0px 5px 0px;
 
 }
 
@@ -171,10 +185,6 @@ h3 {
 
 .image { 
   object-fit: cover;
-}
-
-.pimg {
-  padding: 0;
 }
 
 /*  CV entries   */

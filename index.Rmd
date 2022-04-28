@@ -14,6 +14,7 @@ knit: pagedown::chrome_print
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
 
 <!-- CONTENT -->
+<div style="position:absolute; top:-10mm; right: 5mm; width: 100%; text-align: right; font-size:8pt;"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz">here</a></div>
 <div class="cv-page-wrapper">
 <div class="cv-head-wrapper">
 <div class="cv-head-left">
@@ -21,15 +22,12 @@ knit: pagedown::chrome_print
 <p class="cv-subtitle">BUSINESS ADMINISTRATION & ENGINEERING, M. Sc.<p>
 <table class="cv-contact-table">
 <tr>
-<td><i class="fa fa-envelope fa-fw"></i><a href="mailto:joschka.schwarz@tuhh.de">&nbsp;joschka.schwarz@tuhh.de</a></td>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:joschka.schwarz@tuhh.de">&nbsp;joschka.schwarz@tuhh.de</a></td>
 <td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
 </tr>
 <tr>
-<td><i class="fa-brands fa-github fa-fw"></i><a href="https://github.com/jwarz">&nbsp;github.com/jwarz</a></td>
-<td><i class="fa-brands fa-linkedin fa-fw"></i><a href="https://linkedin.com/in/joschka-schwarz">&nbsp;linkedin.com/in/joschka-schwarz</a></td>
-</tr>
-<tr>
-<td><i class="fas fa-file-pdf fa-fw"></i><a href="https://github.com/jwarz">&nbsp;A PDF version is available</a></td>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" href="https://linkedin.com/in/joschka-schwarz">&nbsp;linkedin.com/in/joschka-schwarz</a></td>
+<td><i class="fa-brands fa-github fa-fw"></i><a class="no-hyper" href="https://github.com/jwarz">&nbsp;github.com/jwarz</a></td>
 </tr>
 </table>
 </div>
@@ -95,6 +93,7 @@ knit: pagedown::chrome_print
 </ul>
 </p>
 </div>
+<br class="pageBreak">
 <!-- Exp 4 -->
 <div style="margin-left: 0.7cm;">
 <p style="margin-bottom: 0px; text-align:left;">
