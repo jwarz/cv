@@ -58,7 +58,7 @@ br.pageBreak {
 }
 
 body {
-  font-family: "Raleway";
+  font-family: 'Raleway', sans-serif;
 }
 
 /* remove hyperlink */
@@ -81,14 +81,14 @@ hr {
 }
 
 /* section headers */
-/*
+
 h2 {
-  margin-top: 0.6em;
-  margin-bottom: 0.4em;
-  font-size: 1.5em;
-  font-weight: bold;
-  margin-left: var(--indentation);
+  font-size: calc(var(--root-font-size) + 4pt);
+  font-weight: 400;
+  color:#555;
+  text-transform: uppercase;
 }
+/*
 h3 {
   margin-left: var(--indentation);
   margin-bottom: 0.6em;
@@ -187,13 +187,36 @@ h3 {
   object-fit: cover;
 }
 
-/*  CV entries   */
-.cv-entry {
-  
+ul {
+  list-style-type: '- ';
+  padding-left: 5mm;
+  font-size: calc(var(--root-font-size) - 2pt);
 }
 
-/* necessary for border at bottom of page */
-.cv-entry p {
-  margin-left: 7mm;
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*  CV entries   */
+.cv-entry-main {
+  margin-left: 5mm;
+}
+
+.cv-entry-top-line {
   margin-bottom: 0px; 
+  text-align: left;
+}
+
+.cv-entry-date {
+  float: right;
+}
+
+.cv-entry-job-title {
+  margin-top: 0px; 
+  margin-bottom: 0px;
+}
+
+.cv-entry-desc {
+    margin-top: 5px;
 }
