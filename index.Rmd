@@ -14,7 +14,7 @@ knit: pagedown::chrome_print
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
 
 <!-- CONTENT -->
-<div style="position:absolute; top:-10mm; right: 5mm; width: 100%; text-align: right; font-size:8pt;"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz">here</a></div>
+<div style="position:absolute; top:-10mm; right: 5mm; width: 100%; text-align: right; font-size:8pt;"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/cv.pdf" download="cv.pdf">here</a></div>
 <div class="cv-page-wrapper">
 <div class="cv-head-wrapper">
 <div class="cv-head-left">
@@ -34,11 +34,199 @@ knit: pagedown::chrome_print
 <div class="cv-head-right"></div>
 </div>
 <hr>
-<p>Curiosity has afforded me opportunities to work at large organizations, with start-ups and in academia. Because of this varied career path, I became a Data Scientist with expertise in quantitative modeling and experience of building products, growing people and making data-informed decisions. Currently, I am working as a <b>Research Associate at TU Hamburg</b>, Germany, conducting research as member of both the <b>Entrepreneurship & Data Science</b> groups to guarantee a wide berth of knowledge about all areas. But now it is time for the next logical step in my career.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity and international sales. As a <b>(Senior) Data Analyst / Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on.</p>
+<p>
+5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <b>Research Associate at TU Hamburg</b>, conducting research as member of both the <b>Entrepreneurship & Data Science</b> groups to guarantee a wide berth of knowledge about all areas.</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity and international sales. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (Technologies used mostly: <strong>R, SQL and Python</strong>).</p>
 <hr>
-<!-- Chapter I: PROF DEV -->
-<h2><i class="fa fa-book fa-fw"></i><span style="margin-left:3mm">Professional Development (Certification)</span></h2>
+<!-- Chapter: PROFESSIONAL EXPERIENCE -->
+<h2 class="hfirst"><i class="fa fa-suitcase fa-fw"></i><span>Industry Experience</span></h2>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Hamburg University of Technology, </b></span>
+<span>Hamburg, Germany</span>
+<span class="cv-entry-date">06/2018 - Present</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Program Manager | Research Associate</i>
+</p>
+<p class="cv-entry-desc">Conducting collaborative research, teaching students, managing industry projects while pursuing independent research and further academic and data science related qualifications.</p>
+<p>
+<ul>
+<li>Lead of B2B/B2C industry innovation projects (focus: digital transformation, big data analytics)</li>
+<li>Designed and conducted multiple lecture units and exams in Entrepreneurship and Data Science</li>
+<li>Developed and implemented a Digital Teaching and Learning Ecosystem to teach classes remotely</li>
+<li>Supervised student theses, projects and internships</li>
+<li>Presented at international conferences and about to publish in related journals</li>
+</ul>
+</p>
+</div>
+<!-- Exp 2 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Lufthansa Technik AG, </b></span>
+<span>Miami, USA</span>
+<span class="cv-entry-date">04/2017 - 03/2018</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Master’s Degree Candidate</i>
+</p>
+<p class="cv-entry-desc">Created a custom AI-based solution for reducing cost & response time (in collaboration with IBM Watson).</p>
+<p>
+<ul>
+<li>Communicated with stakeholders to define project parameters and keep them up to date on project status</li>
+<li>Optimized use of resources to complete projects ahead of deadline and under budget</li>
+<li>Designated resources, assigned tasks and monitored performance for each part of the project</li>
+</ul>
+</p>
+</div>
+<!-- Exp 3 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Horváth & Partners Management Consultants, </b></span>
+<span>Frankfurt on the Main, Germany</span>
+<span class="cv-entry-date">10/2016 - 02/2017</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Management Consulting, intern</i>
+</p>
+<p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p>
+<ul>
+<li>Operational execution of PMO activities (reporting, budget tracking, preparation and follow-up of meetings).</li>
+<li>Assistance in establishing the project structure.</li>
+<li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites.</li>
+</ul>
+</p>
+</div>
+<!-- Exp 3 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>AUDI AG, </b></span>
+<span>Neckarsulm, Germany</span>
+<span class="cv-entry-date">09/2013 - 12/2013</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Process Optimization, intern</i>
+</p>
+<p class="cv-entry-desc">As coordinator of the Lean Manufacturing Team, I was responsible to help people to understand the Lean Management philosophy and the operational excellence approach of AUDI (Audi Production System, APS).</p>
+<p>
+<ul>
+<li>Training and coaching of lean methods with focus on problem solving, logistics and process synchronisation</li>
+<li>Preparation, implementation and moderation of shopfloor management projects in direct and indirect areas</li>
+<li>Optimizing various processes via process mapping and value stream analysis</li>
+</ul>
+</p>
+</div>
+<br class="PageBreak">
+<!-- Exp 4: IPT / ILT -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Fraunhofer institutes (ILT & IPT), </b></span>
+<span>Aachen, Germany</span>
+<span class="cv-entry-date">2013 - 2016</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Student assistants</i>
+</p>
+</div>
+<!-- Exp 5: L'Arch -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>L'Arche Greater Vancouver, </b></span>
+<span>Vancouver, Canada</span>
+<span class="cv-entry-date">08/2010 - 08/2011</span>
+</p>
+<p class="cv-entry-job-title">
+<i>(Live in) Care Assistant</i>
+</p>
+</div>
+<!-- Chapter: TEACHING -->
+<h2><i class="fa fa-chalkboard-teacher fa-fw"></i><span>Teaching Experience</span></h2>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Data Science</b></span>
+<!-- <span>Hamburg, Germany</span> -->
+<span class="cv-entry-date">10/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Designer & Instructor of multiple business oriented Data Science and Machine Learning courses:</p>
+<p>
+<ul class="two-col">
+<li>Data Science certificate program</li>
+<li>Business Decisions with Machine Learning</li>
+<li>Business Data Science Basics</li>
+<li>Building Business Data Products</li>
+</ul>
+</p>
+</div>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Entrepreneurship & Innovation</b></span>
+<!-- <span>Hamburg, Germany</span> -->
+<span class="cv-entry-date">10/2018 - Present</span>
+</p>
+<p class="cv-entry-desc">Teaching students skills needed to build a technology startup from the ground up in varying classes:</p>
+<p>
+<ul class="two-col">
+<li>Startup Engineering</li>
+<li>Sustainable Entrepreunrship</li>
+<li>Technology Entrepreunrship</li>
+<li>Creation of Business Opportunities</li>
+</ul>
+</p>
+</div>
+<!-- Chapter: EDUCATION -->
+<h2><i class="fa fa-graduation-cap fa-fw"></i><span>Education</span></h2>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>Hamburg University of Technology, </b></span>
+<span>Hamburg, Germany</span>
+<span class="cv-entry-date">06/2018 - Present</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Ph.D. Thesis in Innovation Management & Entrepreneurship Science</i>
+</p>
+<p class="cv-entry-desc">Quantitative dissertation (using SQL, R, Python) on the influence of social, structural and reputational effects on entrepreuneurial success.</p>
+<p>
+<ul>
+<li>Creation of various databases by scraping different data providers and collaborative platforms</li>
+<li>Natural language processing on linkedin and startup databases to extract features for network analysis</li>
+<li>Machine Learning and statistical analysis on large (> 5 billion records) github and stackoverflow datasets</li>
+</ul>
+</p>
+</div>
+<!-- Exp 2 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line" style="margin-bottom:0px;">
+<span><b>Maastricht University, </b></span>
+<span>Maastricht, Netherlands</span>
+<span class="cv-entry-date">02/2016 - 06/2016</span>
+</p>
+<p class="cv-entry-top-line" style="margin-top:0px;">
+<span><b>Polytechnic University of Valencia, </b></span>
+<span>Valencia, Spain</span>
+<span class="cv-entry-date">02/2014 - 06/2014</span>
+</p>
+<p class="cv-entry-job-title">
+<i>Visiting Research Scholar</i>
+</p>
+</div>
+<!-- Exp 4 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span><b>RWTH Aachen University, </b></span>
+<span>Aachen, Germany</span>
+<span class="cv-entry-date">09/2011 - 03/2018</span>
+</p>
+<p class="cv-entry-job-title">
+<i>B.Sc. & M.Sc. in Business Administration & Engineering, Grade: 1.6, Selected to the Dean’s List</i>
+</p>
+</div>
+<!-- Chapter: PROF DEV -->
+<h2><i class="fa fa-book fa-fw"></i><span>Professional Development (Certification)</span></h2>
 <!-- Exp 1: BUSINESS SCIENCE UNIVERSITY -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
@@ -74,175 +262,8 @@ analytics, machine learning and other technologies to gain insights from big dat
 </ul>
 </p>
 </div>
-<!-- Chapter: PROFESSIONAL EXPERIENCE -->
-<h2><i class="fa fa-suitcase fa-fw"></i><span style="margin-left:5mm">Industry Experience</span></h2>
-<!-- Exp 1 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Hamburg University of Technology, </b></span>
-<span>Hamburg, Germany</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Program Manager | Research Assistant</i>
-</p>
-<p class="cv-entry-desc">Foundations ...</p>
-<p>
-<ul>
-<li>Lead of B2B/B2C industry innovation projects (focus: digital transformation, digital product development, strategic innovation management, big data analytics)</li>
-<li>Designed and conducted project pitches, calculated project budgets</li>
-<li>Designed and conducted multiple lecture units and exams in Entrepreneurship and Data Science</li>
-<li>Developed and implemented a Digital Teaching and Learning Ecosystem to teach classes remotely</li>
-<li>Supervised student theses, projects and internships</li>
-<li>Presented at international conferences and about to publish in related journals</li>
-</ul>
-</p>
 </div>
-<!-- Exp 2 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Lufthansa Technik AG, </b></span>
-<span>Miami, USA</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Master’s Degree Candidate</i>
-</p>
-<p class="cv-entry-desc">Created a custom Artificial Intelligence-based technological solution for business success (in collaboration with external AI experts from IBM Watson).</p>
-<p>
-<ul>
-<li>Worked with executive clients to define project parameters and goals.</li>
-<li>Optimized use of resources to complete projects ahead of deadline and under budget.</li>
-<li>Motivated and supervised team members.</li>
-<li>Designated resources, assigned tasks and monitored performance for each part of the project.</li>
-<li>Communicated with clients to keep them up to date on project status.</li>
-</ul>
-</p>
-</div>
-<!-- Exp 3 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Horváth & Partners Management Consultants, </b></span>
-<span>Frankfurt on the Main, Germany</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Management Consulting, intern</i>
-</p>
-<p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
-<p>
-<ul>
-<li>Operational execution of PMO activities including reporting, budget tracking, preparation and follow-up of meetings.</li>
-<li>Assistance in establishing the project structure.</li>
-<li>Preparation of profitability calculations and capacity and utilization analyses for the individual sites.</li>
-</ul>
-</p>
-</div>
-<!-- Exp 3 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>AUDI AG, </b></span>
-<span>Neckarsulm, Germany</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Process Optimization, intern</i>
-</p>
-<p class="cv-entry-desc">As coordinator of the Lean Manufacturing Team, I was the responsible to help people to understand the Lean Management philosophy and the operational excellence approach of AUDI (Audi Production System, APS).</p>
-<p>
-<ul>
-<li>Training and coaching of lean methods with focus on problem solving, logistics and process synchronisation</li>
-<li>Preparation, implementation and moderation of shopfloor management projects in direct and indirect areas</li>
-<li>Optimizing various processes via process mapping and value stream analysis</li>
-<li>Participating in the transformation of logistics processes from “push” to “pull”</li>
-</ul>
-</p>
-</div>
-<!-- Exp 4 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Fraunhofer institutes (ILT & IPT), </b></span>
-<span>Aachen, Germany</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Student assistants</i>
-</p>
-</div>
-<!-- Chapter III: EDUCATION -->
-<h2><i class="fa fa-graduation-cap fa-fw"></i><span style="margin-left:5mm">Education</span></h2>
-<!-- Exp 1 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Hamburg University of Technology, </b></span>
-<span>Hamburg, Germany</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Ph.D. Thesis in Innovation Management & Entrepreneurship Science</i>
-</p>
-</div>
-<!-- Exp 2 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line" style="margin-bottom:0px;">
-<span><b>Maastricht University, </b></span>
-<span>Maastricht, Netherlands</span>
-<span class="cv-entry-date">02/2016 - 06/2016</span>
-</p>
-<p class="cv-entry-top-line" style="margin-top:0px;">
-<span><b>Polytechnic University of Valencia, </b></span>
-<span>Valencia, Spain</span>
-<span class="cv-entry-date">02/2014 - 06/2014</span>
-</p>
-<p class="cv-entry-job-title">
-<i>Visiting Research Scholar</i>
-</p>
-</div>
-<!-- Exp 4 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>RWTH Aachen University, </b></span>
-<span>Aachen, Germany</span>
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-job-title">
-<i>B.Sc. & M.Sc. in Business Administration & Engineering, Grade: 1.6, Selected to the Dean’s List</i>
-</p>
-</div>
-<!-- Chapter: TEACHING -->
-<h2><i class="fa fa-chalkboard-teacher fa-fw"></i><span style="margin-left:5mm">Teaching Experience</span></h2>
-<!-- Exp 1 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Data Science</b></span>
-<!-- <span>Hamburg, Germany</span> -->
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-desc">Designer & Instructor of Data Science and Machine Learning Courses:</p>
-<p>
-<ul class="two-col">
-<li>Data Science certificate program</li>
-<li>Business Decisions with Machine Learning</li>
-<li>Business Data Science Basics</li>
-<li>Building Business Data Products</li>
-</ul>
-</p>
-</div>
-<!-- Exp 1 -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span><b>Entrepreneurship & Innovation</b></span>
-<!-- <span>Hamburg, Germany</span> -->
-<span class="cv-entry-date">06/2019 - Present</span>
-</p>
-<p class="cv-entry-desc">Teaching students skills needed to build a technology startup from the ground up in varying classes:</p>
-<p>
-<ul class="two-col">
-<li>Startup Engineering</li>
-<li>Sustainable Entrepreunrship</li>
-<li>Technology Entrepreunrship</li>
-<li>Creation of Business Opportunities</li>
-</ul>
-</p>
-</div>
-</div>
+
+```{r, include=FALSE}
+file.rename("index.pdf", "cv.pdf")
+```
