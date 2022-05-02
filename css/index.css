@@ -221,6 +221,10 @@ ul {
   text-align: left;
 }
 
+.cv-entry-employer {
+  font-weight: bold;
+}
+
 .cv-entry-date {
   font-weight: bold;
   float: right;

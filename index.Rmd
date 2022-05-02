@@ -38,15 +38,15 @@ knit: pagedown::chrome_print
 </div>
 <hr>
 <p>
-5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <b>Research Associate at TU Hamburg</b>, conducting research as member of both the <b>Entrepreneurship & Data Science</b> groups to guarantee a wide berth of knowledge about all areas.</p>
+5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <b>Research Associate at TU Hamburg</b>, conducting research as member of both the <strong>Entrepreneurship & Data Science</strong> groups to guarantee a wide berth of knowledge about all areas.</p>
 <p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <strong>R, SQL and Python</strong>).</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="hfirst"><i class="fa fa-suitcase fa-fw"></i><span>Industry Experience</span></h2>
-<!-- Exp 1 -->
+<!-- Exp 1: TUHH -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Hamburg University of Technology, </b></span>
+<span class="cv-entry-employer">Hamburg University of Technology, </span>
 <span>Hamburg, Germany</span>
 <span class="cv-entry-date">06/2018 - Present</span>
 </p>
@@ -62,10 +62,10 @@ knit: pagedown::chrome_print
 <li>Presented at international conferences and about to publish in related journals</li>
 </ul>
 </div>
-<!-- Exp 2 -->
+<!-- Exp 2: Lufthansa -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Lufthansa Technik AG, </b></span>
+<span class="cv-entry-employer">Lufthansa Technik AG, </span>
 <span>Miami, USA</span>
 <span class="cv-entry-date">04/2017 - 03/2018</span>
 </p>
@@ -79,10 +79,10 @@ knit: pagedown::chrome_print
 <li>Designated resources, assigned tasks and monitored performance for each part of the project</li>
 </ul>
 </div>
-<!-- Exp 3 -->
+<!-- Exp 3: Horvath -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Horváth & Partners Management Consultants, </b></span>
+<span class="cv-entry-employer">Horváth & Partners Management Consultants, </span>
 <span>Frankfurt on the Main, Germany</span>
 <span class="cv-entry-date">10/2016 - 02/2017</span>
 </p>
@@ -96,10 +96,10 @@ knit: pagedown::chrome_print
 <li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites</li>
 </ul>
 </div>
-<!-- Exp 3 -->
+<!-- Exp 4: AUDI -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>AUDI AG, </b></span>
+<span class="cv-entry-employer">AUDI AG, </span>
 <span>Neckarsulm, Germany</span>
 <span class="cv-entry-date">09/2013 - 12/2013</span>
 </p>
@@ -116,10 +116,10 @@ knit: pagedown::chrome_print
 </p>
 </div>
 <br class="pageBreak">
-<!-- Exp 4: IPT / ILT -->
+<!-- Exp 5: IPT / ILT -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Fraunhofer institutes (ILT & IPT), </b></span>
+<span class="cv-entry-employer">Fraunhofer institutes (ILT & IPT), </span>
 <span>Aachen, Germany</span>
 <span class="cv-entry-date">2013 - 2016</span>
 </p>
@@ -127,10 +127,10 @@ knit: pagedown::chrome_print
 <i>Student assistants</i>
 </p>
 </div>
-<!-- Exp 5: L'Arch -->
+<!-- Exp 6: L'Arche -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>L'Arche Greater Vancouver, </b></span>
+<span class="cv-entry-employer">L'Arche Greater Vancouver, </span>
 <span>Vancouver, Canada</span>
 <span class="cv-entry-date">08/2010 - 08/2011</span>
 </p>
@@ -143,7 +143,7 @@ knit: pagedown::chrome_print
 <!-- Exp 1 -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Data Science</b></span>
+<span class="cv-entry-employer">Data Science</span>
 <!-- <span>Hamburg, Germany</span> -->
 <span class="cv-entry-date">10/2019 - Present</span>
 </p>
@@ -158,7 +158,7 @@ knit: pagedown::chrome_print
 <!-- Exp 1 -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Entrepreneurship & Innovation</b></span>
+<span class="cv-entry-employer">Entrepreneurship & Innovation</span>
 <!-- <span>Hamburg, Germany</span> -->
 <span class="cv-entry-date">10/2018 - Present</span>
 </p>
@@ -175,7 +175,7 @@ knit: pagedown::chrome_print
 <!-- Exp 1 -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Hamburg University of Technology, </b></span>
+<span class="cv-entry-employer">Hamburg University of Technology, </span>
 <span>Hamburg, Germany</span>
 <span class="cv-entry-date">06/2018 - Present</span>
 </p>
@@ -192,7 +192,7 @@ knit: pagedown::chrome_print
 <!-- Exp 2 -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Maastricht University, </b></span>
+<span class="cv-entry-employer">Maastricht University, </span>
 <span>Maastricht, Netherlands</span>
 <span class="cv-entry-date">02/2016 - 06/2016</span>
 </p>
@@ -203,7 +203,7 @@ knit: pagedown::chrome_print
 <!-- Exp 3 -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Polytechnic University of Valencia, </b></span>
+<span class="cv-entry-employer">Polytechnic University of Valencia, </span>
 <span>Valencia, Spain</span>
 <span class="cv-entry-date">02/2014 - 06/2014</span>
 </p>
@@ -214,7 +214,7 @@ knit: pagedown::chrome_print
 <!-- Exp 4 -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>RWTH Aachen University, </b></span>
+<span class="cv-entry-employer">RWTH Aachen University, </span>
 <span>Aachen, Germany</span>
 <span class="cv-entry-date">09/2011 - 03/2018</span>
 </p>
@@ -231,7 +231,7 @@ knit: pagedown::chrome_print
 <!-- Exp 1: BUSINESS SCIENCE UNIVERSITY -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>Business Science University, </b></span>
+<span class="cv-entry-employer">Business Science University, </span>
 <span>remote</span>
 <span class="cv-entry-date">06/2019 - Present</span>
 </p>
@@ -246,7 +246,7 @@ knit: pagedown::chrome_print
 <!-- Exp 2: DATACAMP -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
-<span><b>DataCamp, </b></span>
+<span class="cv-entry-employer">DataCamp, </span>
 <span>remote</span>
 <span class="cv-entry-date">06/2019 - Present</span>
 </p>
