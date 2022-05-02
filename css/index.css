@@ -11,9 +11,9 @@
 :root{
   --page-width: 210mm;
   --page-height: 297mm;
-  --pagedjs-margin-right: 12mm;
-  --pagedjs-margin-left: 12mm;
-  --pagedjs-margin-top: 18mm;
+  --pagedjs-margin-right: 10mm;
+  --pagedjs-margin-left: 10mm;
+  --pagedjs-margin-top: 13mm;
   --pagedjs-margin-bottom: 10mm;
   --root-font-size: 10pt;
   --viewer-pages-spacing: 12px;
@@ -74,6 +74,10 @@ p, li, td {
   line-height: 1.3;
   color: black;/*#444;*/
   
+}
+
+ul {
+  margin-top:5px;
 }
 
 hr {
@@ -229,4 +233,5 @@ ul {
 
 .cv-entry-desc {
     margin-top: 5px;
+    margin-bottom: 5px;
 }

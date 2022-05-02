@@ -14,7 +14,7 @@ knit: pagedown::chrome_print
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;400;600&display=swap" rel="stylesheet">
 
 <!-- CONTENT -->
-<div style="position:absolute; top:-10mm; right: 5mm; width: 100%; text-align: right; font-size:8pt;"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/cv.pdf" download="cv.pdf">here</a></div>
+<div style="position:absolute; top:-5mm; right: 5mm; width: 100%; text-align: right; font-size:8pt;"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/cv.pdf" download="cv.pdf">here</a></div>
 <div class="cv-page-wrapper">
 <div class="cv-head-wrapper">
 <div class="cv-head-left">
@@ -36,7 +36,7 @@ knit: pagedown::chrome_print
 <hr>
 <p>
 5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <b>Research Associate at TU Hamburg</b>, conducting research as member of both the <b>Entrepreneurship & Data Science</b> groups to guarantee a wide berth of knowledge about all areas.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity and international sales. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <strong>R, SQL and Python</strong>).</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <strong>R, SQL and Python</strong>).</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="hfirst"><i class="fa fa-suitcase fa-fw"></i><span>Industry Experience</span></h2>
@@ -51,7 +51,6 @@ knit: pagedown::chrome_print
 <i>Program Manager | Research Associate</i>
 </p>
 <p class="cv-entry-desc">Conducting collaborative research, teaching students, managing industry projects while pursuing independent research and further academic and data science related qualifications.</p>
-<p>
 <ul>
 <li>Lead of B2B/B2C industry innovation projects (focus: digital transformation, big data analytics)</li>
 <li>Designed and conducted multiple lecture units and exams in entrepreneurship and data science</li>
@@ -59,7 +58,6 @@ knit: pagedown::chrome_print
 <li>Supervised student theses, projects and internships</li>
 <li>Presented at international conferences and about to publish in related journals</li>
 </ul>
-</p>
 </div>
 <!-- Exp 2 -->
 <div class="cv-entry-main">
@@ -72,13 +70,11 @@ knit: pagedown::chrome_print
 <i>Master’s Degree Candidate</i>
 </p>
 <p class="cv-entry-desc">Created a custom AI-based solution for reducing cost & response time (in collaboration with IBM Watson).</p>
-<p>
 <ul>
 <li>Communicated with stakeholders to define project parameters and keep them up to date on project status</li>
 <li>Optimized use of resources to complete projects ahead of deadline and under budget</li>
 <li>Designated resources, assigned tasks and monitored performance for each part of the project</li>
 </ul>
-</p>
 </div>
 <!-- Exp 3 -->
 <div class="cv-entry-main">
@@ -91,13 +87,11 @@ knit: pagedown::chrome_print
 <i>Management Consulting, intern</i>
 </p>
 <p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
-<p>
 <ul>
 <li>Operational execution of PMO activities (reporting, budget tracking, preparation and follow-up of meetings).</li>
 <li>Assistance in establishing the project structure.</li>
 <li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites.</li>
 </ul>
-</p>
 </div>
 <!-- Exp 3 -->
 <div class="cv-entry-main">
@@ -118,6 +112,7 @@ knit: pagedown::chrome_print
 </ul>
 </p>
 </div>
+<br class="pageBreak">
 <!-- Exp 4: IPT / ILT -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
@@ -229,7 +224,7 @@ knit: pagedown::chrome_print
 <p class="cv-entry-job-title">
 <i>B.Sc. & M.Sc. in Business Administration & Engineering</i>
 </p>
-<ul style="margin-top:5px">
+<ul>
 <li>Selected to the Dean’s List & finished within the designated period of study</li>
 <li>Grade: 1.6</li>
 </ul>
