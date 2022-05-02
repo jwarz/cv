@@ -36,7 +36,7 @@ knit: pagedown::chrome_print
 <hr>
 <p>
 5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <b>Research Associate at TU Hamburg</b>, conducting research as member of both the <b>Entrepreneurship & Data Science</b> groups to guarantee a wide berth of knowledge about all areas.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity and international sales. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (Technologies used mostly: <strong>R, SQL and Python</strong>).</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity and international sales. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <strong>R, SQL and Python</strong>).</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="hfirst"><i class="fa fa-suitcase fa-fw"></i><span>Industry Experience</span></h2>
@@ -54,8 +54,8 @@ knit: pagedown::chrome_print
 <p>
 <ul>
 <li>Lead of B2B/B2C industry innovation projects (focus: digital transformation, big data analytics)</li>
-<li>Designed and conducted multiple lecture units and exams in Entrepreneurship and Data Science</li>
-<li>Developed and implemented a Digital Teaching and Learning Ecosystem to teach classes remotely</li>
+<li>Designed and conducted multiple lecture units and exams in entrepreneurship and data science</li>
+<li>Developed and implemented a <i>Digital Teaching and Learning Ecosystem</i> to teach classes remotely</li>
 <li>Supervised student theses, projects and internships</li>
 <li>Presented at international conferences and about to publish in related journals</li>
 </ul>
