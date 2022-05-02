@@ -200,12 +200,18 @@ knit: pagedown::chrome_print
 </div>
 <!-- Exp 2 -->
 <div class="cv-entry-main">
-<p class="cv-entry-top-line" style="margin-bottom:0px;">
+<p class="cv-entry-top-line">
 <span><b>Maastricht University, </b></span>
 <span>Maastricht, Netherlands</span>
 <span class="cv-entry-date">02/2016 - 06/2016</span>
 </p>
-<p class="cv-entry-top-line" style="margin-top:0px;">
+<p class="cv-entry-job-title">
+<i>Visiting Research Scholar</i>
+</p>
+</div>
+<!-- Exp 3 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
 <span><b>Polytechnic University of Valencia, </b></span>
 <span>Valencia, Spain</span>
 <span class="cv-entry-date">02/2014 - 06/2014</span>
@@ -222,8 +228,12 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">09/2011 - 03/2018</span>
 </p>
 <p class="cv-entry-job-title">
-<i>B.Sc. & M.Sc. in Business Administration & Engineering, Grade: 1.6, Selected to the Dean’s List</i>
+<i>B.Sc. & M.Sc. in Business Administration & Engineering</i>
 </p>
+<ul style="margin-top:5px">
+<li>Selected to the Dean’s List & finished within the designated period of study</li>
+<li>Grade: 1.6</li>
+</ul>
 </div>
 <!-- Chapter: PROF DEV -->
 <h2><i class="fa fa-book fa-fw"></i><span>Professional Development (Certification)</span></h2>
