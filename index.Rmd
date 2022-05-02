@@ -88,9 +88,9 @@ knit: pagedown::chrome_print
 </p>
 <p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
 <ul>
-<li>Operational execution of PMO activities (reporting, budget tracking, preparation and follow-up of meetings).</li>
-<li>Assistance in establishing the project structure.</li>
-<li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites.</li>
+<li>Operational execution of PMO activities (reporting, budget tracking, preparation and follow-up of meetings)</li>
+<li>Assistance in establishing the project structure</li>
+<li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites</li>
 </ul>
 </div>
 <!-- Exp 3 -->
@@ -145,14 +145,12 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">10/2019 - Present</span>
 </p>
 <p class="cv-entry-desc">Designer & Instructor of multiple business oriented Data Science and Machine Learning courses:</p>
-<p>
 <ul class="two-col">
 <li>Data Science certificate program</li>
 <li>Business Decisions with Machine Learning</li>
 <li>Business Data Science Basics</li>
 <li>Building Business Data Products</li>
 </ul>
-</p>
 </div>
 <!-- Exp 1 -->
 <div class="cv-entry-main">
@@ -162,14 +160,12 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">10/2018 - Present</span>
 </p>
 <p class="cv-entry-desc">Teaching students skills needed to build a technology startup from the ground up in varying classes:</p>
-<p>
 <ul class="two-col">
 <li>Startup Engineering</li>
 <li>Sustainable Entrepreunrship</li>
 <li>Technology Entrepreunrship</li>
 <li>Creation of Business Opportunities</li>
 </ul>
-</p>
 </div>
 <!-- Chapter: EDUCATION -->
 <h2><i class="fa fa-graduation-cap fa-fw"></i><span>Education</span></h2>
@@ -184,13 +180,11 @@ knit: pagedown::chrome_print
 <i>Ph.D. Thesis in Innovation Management & Entrepreneurship Science</i>
 </p>
 <p class="cv-entry-desc">Quantitative dissertation (using SQL, R, Python) on the influence of social, structural and reputational effects on entrepreuneurial success.</p>
-<p>
 <ul>
 <li>Creation of various databases by scraping different data providers and collaborative platforms</li>
 <li>Natural language processing on linkedin and startup databases to extract features for network analysis</li>
 <li>Machine Learning and statistical analysis on large (> 5 billion records) github and stackoverflow datasets</li>
 </ul>
-</p>
 </div>
 <!-- Exp 2 -->
 <div class="cv-entry-main">
@@ -239,14 +233,12 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">06/2019 - Present</span>
 </p>
 <p class="cv-entry-desc">Applying enterprise-grade machine learning in business & finance (machine Learning & web applications).</p>
-<p>
 <ul class="two-col">
 <li>Business Analysis (Data Science Foundations)</li>
 <li>Shiny Web Applications (ML & Business Consulting)</li>
 <li>Data Science for Business (Predictive Dashboards)</li>
 <li>Advanced Web App Development with AWS</li>
 </ul>
-</p>
 </div>
 <!-- Exp 2: DATACAMP -->
 <div class="cv-entry-main">
@@ -257,17 +249,11 @@ knit: pagedown::chrome_print
 </p>
 <p class="cv-entry-desc">Foundations of data science including statistics, inference, computer science, predictive 
 analytics, machine learning and other technologies to gain insights from big data (using R, Pyhton and SQL).</p>
-<p>
 <ul class="two-col">
 <li>Data Analyst with R (19 Courses)</li>
 <li>Machine Learning Scientist with R (15 Courses)</li>
 <li>Data Scientist with R (22 Courses)</li>
 <li>Statistician with R (27 Courses)</li>
 </ul>
-</p>
 </div>
 </div>
-
-```{r, include=FALSE}
-file.rename("index.pdf", "cv.pdf")
-```
