@@ -118,7 +118,6 @@ knit: pagedown::chrome_print
 </ul>
 </p>
 </div>
-<br class="PageBreak">
 <!-- Exp 4: IPT / ILT -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
