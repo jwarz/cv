@@ -237,7 +237,7 @@ knit: pagedown::chrome_print
 </p>
 <p class="cv-entry-desc">Applying enterprise-grade machine learning in business & finance (machine Learning & web applications).</p>
 <ul class="two-col">
-<li>Business Analysis (Data Science Foundations)</li>
+<li><a class="no-hyper" target="_blank" href="https://www.dropbox.com/s/nlskcws7fsvcsaq/certificate-of-completion-for-ds4b-101-r-business-analysis-with-r.pdf">Business Analysis (Data Science Foundations)</a></li>
 <li>Shiny Web Applications (ML & Business Consulting)</li>
 <li>Data Science for Business (Predictive Dashboards)</li>
 <li>Advanced Web App Development with AWS</li>
@@ -253,10 +253,10 @@ knit: pagedown::chrome_print
 <p class="cv-entry-desc">Foundations of data science including statistics, inference, computer science, predictive 
 analytics, machine learning and other technologies to gain insights from big data (using R, Pyhton and SQL).</p>
 <ul class="two-col">
-<li>Data Analyst with R (19 Courses)</li>
-<li>Machine Learning Scientist with R (15 Courses)</li>
-<li>Data Scientist with R (22 Courses)</li>
-<li>Statistician with R (27 Courses)</li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/34d209775a4c2da4dc9785417d18a38ecae0dee0">Data Analyst with R (19 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/d76aee0c9ae23f645d110c7cc84f29ab56e98ffc">Machine Learning Scientist with R (15 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/0abda65dd30dc07e9042a833613f24e2d922c47c">Data Scientist with R (22 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="">Statistician with R (27 Courses)</li>
 </ul>
 </div>
 </div>
