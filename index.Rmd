@@ -38,8 +38,8 @@ knit: pagedown::chrome_print
 </div>
 <hr>
 <p>
-5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <b>Research Associate at TU Hamburg</b>, conducting research as member of both the <strong>Entrepreneurship & Data Science</strong> groups to guarantee a wide berth of knowledge about all areas.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity. As a <b>(Senior) Data Scientist</b> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <strong>R, SQL and Python</strong>).</p>
+5 years of experience working with data. Expertise in quantitative modeling, growing people and making data-informed decisions. Currently working as a <span class="cv-entry-employer">Research Associate at TU Hamburg</span>, conducting research as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups to guarantee a wide berth of knowledge about all areas.</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to engage your sales force and increase productivity. As a <span class="cv-entry-employer">(Senior) Data Scientist</span> at your company, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="hfirst"><i class="fa fa-suitcase fa-fw"></i><span>Industry Experience</span></h2>
