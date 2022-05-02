@@ -8,6 +8,9 @@ links-to-footnotes: true
 knit: pagedown::chrome_print
 ---
 
+<!-- disable phone number linking in Mobile Safari? -->
+<meta name="format-detection" content="telephone=no">
+
 <!-- Load CSS & Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com"> 
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
