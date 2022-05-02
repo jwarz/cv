@@ -51,7 +51,7 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">06/2018 - Present</span>
 </p>
 <p class="cv-entry-job-title">
-<i>Program Manager | Research Associate</i>
+<i>Program Manager | Research Associate (Institute of Entrepreneurship)</i>
 </p>
 <p class="cv-entry-desc">Conducting collaborative research, teaching students, managing industry projects while pursuing independent research and further academic and data science related qualifications.</p>
 <ul>
@@ -70,7 +70,7 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">04/2017 - 03/2018</span>
 </p>
 <p class="cv-entry-job-title">
-<i>Master’s Degree Candidate</i>
+<i>Master’s Degree Candidate (dept.: Closed Loop Supply Chain Management)</i>
 </p>
 <p class="cv-entry-desc">Created a custom AI-based solution for reducing cost & response time (in collaboration with IBM Watson).</p>
 <ul>
@@ -87,7 +87,7 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">10/2016 - 02/2017</span>
 </p>
 <p class="cv-entry-job-title">
-<i>Management Consulting, intern</i>
+<i>Management Consulting, intern (dept.: Transportation, Travel & Logistics)</i>
 </p>
 <p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
 <ul>
@@ -104,7 +104,7 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">09/2013 - 12/2013</span>
 </p>
 <p class="cv-entry-job-title">
-<i>Process Optimization, intern</i>
+<i>Process Optimization, intern (dept.: Body Construction A6/A4)</i>
 </p>
 <p class="cv-entry-desc">As coordinator of the Lean Manufacturing Team, I was responsible to help people to understand the Lean Management philosophy and the operational excellence approach of AUDI (Audi Production System, APS).</p>
 <p>
@@ -135,7 +135,7 @@ knit: pagedown::chrome_print
 <span class="cv-entry-date">08/2010 - 08/2011</span>
 </p>
 <p class="cv-entry-job-title">
-<i>(Live in) Care Assistant</i>
+<i>(Live in) Care Assistant (Alternative mandatory community service)</i>
 </p>
 </div>
 <!-- Chapter: TEACHING -->
