@@ -1,0 +1,192 @@
+/* PROFILE IMAGE */
+.cv-head-right {
+  background-image: url('../../images/spotify2.png');
+}
+
+/* FONT */
+@font-face {font-family: "CircularSpUIv3T-Light";
+    src: url("../../fonts/spotify/CircularSpUIv3T-Light.eot"); /* IE9*/
+    src: url("../../fonts/spotify/CircularSpUIv3T-Light.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../fonts/spotify/CircularSpUIv3T-Light.woff2") format("woff2"), /* chrome firefox */
+    url("../../fonts/spotify/CircularSpUIv3T-Light.woff") format("woff"), /* chrome firefox */
+    url("../../fonts/spotify/CircularSpUIv3T-Light.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("../../fonts/spotify/CircularSpUIv3T-Light.svg#Circular Sp UI v3 T Light") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "CircularSpUIv3T-Bold";
+    src: url("../../fonts/spotify/CircularSpUIv3T-Bold.eot"); /* IE9*/
+    src: url("../../fonts/spotify/CircularSpUIv3T-Bold.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../fonts/spotify/CircularSpUIv3T-Bold.woff2") format("woff2"), /* chrome firefox */
+    url("../../fonts/spotify/CircularSpUIv3T-Bold.woff") format("woff"), /* chrome firefox */
+    url("../../fonts/spotify/CircularSpUIv3T-Bold.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("../../fonts/spotify/CircularSpUIv3T-Bold.svg#Circular Sp UI v3 T Bold") format("svg"); /* iOS 4.1- */
+}
+@font-face {font-family: "CircularSpUIv3T-Black";
+    src: url("../../fonts/spotify/CircularSpUIv3T-Black.eot"); /* IE9*/
+    src: url("../../fonts/spotify/CircularSpUIv3T-Black.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+    url("../../fonts/spotify/CircularSpUIv3T-Black.woff2") format("woff2"), /* chrome firefox */
+    url("../../fonts/spotify/CircularSpUIv3T-Black.woff") format("woff"), /* chrome firefox */
+    url("../../fonts/spotify/CircularSpUIv3T-Black.ttf") format("truetype"), /* chrome firefox opera Safari, Android, iOS 4.2+*/
+    url("../../fonts/spotify/CircularSpUIv3T-Black.svg#Circular Sp UI v3 T Black") format("svg"); /* iOS 4.1- */
+}
+
+body {
+  font-family: "CircularSpUIv3T-Light";
+}
+
+/* COLOR */
+/* Color settings for PDF (pagedown::chrome_print) */
+@media print {
+  .pagedjs_page {
+    /*background: linear-gradient(#242424, #121212);*/
+    background-color: #121212;
+    color: white !important;
+  }
+  p, span, li, td, i {
+    color: white !important;
+  }
+  .cv-entry-job-title {
+    color: grey !important;
+  }
+}
+
+/* EXTRA DIV COLOR */
+.background-elevated {
+  background-color: #2a2a2a; 
+  padding: 10px; 
+  border-radius: 15px;"
+}
+
+/* HORIZONTAL RULE */
+hr {
+  margin: 5px 15px 0px 15px;
+  height: 0px;
+  border-top: 1px solid white; 
+  transform: scaleY(0.5);
+}
+
+/* SECTION HEADERS */
+h2 {
+  font-family: "CircularSpUIv3T-Light";
+  margin-top: 20px;
+  margin-bottom: 0px;
+  
+  /*for underline*/
+  position: relative;
+  display: inline-block;
+  padding-bottom: 10px;
+}
+
+/*underline*/
+h2:before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    bottom: 0;
+    border-bottom: 3px solid #1ed760;
+}
+h2.h-first:before, h2.h-second:before{
+    width: 80%;
+    left: 10%;
+}
+h2.h-third:before{
+    width: 65%;
+    left: 20%;
+}
+h2.h-fourth:before{
+    width: 90%;
+    left: 5%;
+}
+
+/*SECTIONS*/
+.cv-title {
+  font-family: "CircularSpUIv3T-Bold";
+  margin-left: 110px;
+  font-size: 1.9rem;
+  font-weight: 700;
+  color: inherit;
+}
+.cv-contact-table {
+	margin-top: 10px;
+	table-layout: fixed;
+}
+.cv-entry-employer, .cv-entry-date {
+  font-family: "CircularSpUIv3T-Black";
+}
+.cv-entry-job-title {
+  color: #6a6a6a;
+}
+.cv-entry-location {
+  font-style: italic;
+}
+
+/*SPECIFIC*/
+.user-widget {
+    
+    align-items: center;
+    background-color: #282828;
+    border: 0;
+    border-radius: 5em;
+    color: #fff;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    padding: 2px;
+    height: 100px;
+    width: 300px;
+    position: relative;
+}
+
+.user-widget-avatar {
+    background-color: #535353;
+    /*background-color: red;*/
+    border-radius: 50%;
+    position: absolute;
+    top: 50%; 
+    left: 17%;
+    transform: translate(-50%,-50%);
+    height: 90px;
+    width: 90px;
+    display: flex;
+    justify-content: center;
+    margin:0 auto;
+    float: left;
+}
+.icon {
+  fill: currentcolor;
+}
+.user-icon {
+  height: 50px;
+  width: 50px;
+  display: block;
+  margin: auto;
+}
+
+.black {
+  font-family: "CircularSpUIv3T-Black";
+}
+
+.bold {
+  font-family: "CircularSpUIv3T-Bold";
+}
+
+.bubble {
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  color: #fff;
+  border-radius: 5em;
+  height:30px;
+  font-family: "CircularSpUIv3T-Bold";
+  font-size:0.7rem;
+}
+
+.active {
+  background-color: #1ed760;
+  text-decoration: underline;
+}
+
+.non-active {
+  border: 1px solid;
+  border-color: #fff;
+}

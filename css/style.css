@@ -1,0 +1,196 @@
+/*Set Last updated value*/
+:root{
+  --last-updated: " \00a0 \00a0 \00a0 \00a0 Last updated: October 2022";
+}
+
+/* THIS CREATES BASIC PAGED LAYOUT IN COMBINATION WITH PAGED.HTML */
+  @page{
+    size: A4 portrait;
+  }
+
+:root{
+  --page-width: 210mm;
+  --page-height: 297mm;
+  --pagedjs-margin-right: 10mm;
+  --pagedjs-margin-left: 10mm;
+  --pagedjs-margin-top: 13mm;
+  --pagedjs-margin-bottom: 10mm;
+  --root-font-size: 10pt;
+  --viewer-pages-spacing: 12px;
+  --viewer-shadow-color: #313131; /* this marks the pages */
+    --my-darkgray: #929598;
+    --indentation: 18%;
+}
+
+/* Paged.js viewer */
+@media screen {
+  body {
+    background-color: var(--viewer-background-color); /*background-color: red !important;*/
+    margin: 0; /* for mobile */
+      width: calc(var(--pagedjs-width) + 2 * var(--viewer-pages-spacing)); /* for mobile */
+  }
+  .pagedjs_pages {
+    max-width: var(--pagedjs-width);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .pagedjs_page {
+    box-shadow: 0 0 calc(0.66667 * var(--viewer-pages-spacing)) var(--viewer-shadow-color);
+    margin: var(--viewer-pages-spacing) 0;
+  }
+}
+@media screen and (min-width: 210mm) {
+  /* not a mobile */
+    body {
+      margin: auto;
+      width: unset;
+    }
+}
+
+/* create ability to insert pagebreaks with br.pagebreak */
+br.pageBreak {
+  page-break-after: always;
+}
+
+/* remove hyperlink */
+.no-hyper {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* FONT SETTINGS*/
+p, li, td {
+  font-size: var(--root-font-size);
+  font-weight: 300;
+  line-height: 1.3;
+  color: black;
+}
+
+/* MARGIN SETTINGS*/
+.no-bottom {
+  margin-bottom: 0px;
+}
+/*lists*/
+ul {
+  margin-top:5px;
+  list-style-type: '- ';
+  padding-left: 5mm;
+  font-size: calc(var(--root-font-size) - 2pt);
+}
+
+/* SECTION HEADER SETTINGS */
+h2 {
+  font-size: calc(var(--root-font-size) + 4pt);
+  text-transform: uppercase;
+}
+
+h2 span {
+  margin-left:3mm;
+}
+
+/****** Page numbers and last updated ******/
+@page {
+  @top-left {
+    content: none;
+  }
+  @top-right {
+    content: none;
+  }
+  @bottom-center {
+    content: var(--last-updated);
+  }
+  @bottom-right {
+    text-align: right;
+    content: "Page " counter(page) " of " counter(pages);
+  }
+}
+
+.pagedjs_margin-bottom-right, 
+.pagedjs_margin-bottom-center{
+  color: var(--my-darkgray);
+  font-size: 0.8em;
+  margin-bottom: 20px;
+  margin-right:5mm;
+}
+
+.pagedjs_margin-bottom-right {
+  text-align: right;
+  margin-right:5mm;
+}
+
+.pagedjs_margin-bottom-center {
+  text-align: center;
+}
+
+/*SECTIONS*/
+/* PAGE */
+.cv-page-wrapper {
+  height: 100%; 
+  margin:5mm;
+}
+
+/* HEADER */
+.cv-head-wrapper {
+  display: grid;
+  grid-template-columns: 65% 1fr;
+  margin-bottom: 20px;
+}
+.cv-head-left {
+  grid-column:1;
+}
+.cv-head-right {
+  background-size: cover;
+  background-repeat: no-repeat;
+  grid-column:2;
+}
+.cv-title {
+}
+.cv-subtitle {
+	font-size: 1em;
+	font-weight: 100;
+	color: #666666;
+	margin: 5px 0px 5px 0px;
+}
+.cv-contact-table {
+	width:100%; 
+	font-size: var(--root-font-size);
+}
+/*GRIDS*/
+.two-col {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+/*  CV entries   */
+.cv-entry-main {
+  margin-left: 5mm;
+}
+.cv-entry-top-line {
+  margin-bottom: 0px; 
+  text-align: left;
+}
+.cv-entry-employer {
+}
+.cv-entry-location {
+}
+.cv-entry-date {
+  float: right;
+}
+.cv-entry-job-title {
+  margin-top: 0px; 
+  margin-bottom: 0px;
+}
+.cv-entry-desc {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+/* PDF link*/
+.pdf-link {
+  position:absolute; 
+  top:-5mm; right: 5mm; 
+  width: 100%; 
+  text-align: right; 
+  font-size:8pt;
+}
