@@ -2,7 +2,7 @@
 pagetitle: Joschka's CV
 output:
   pagedown::html_paged:
-    css: ["css/style.css", "css/themes/spotify.css", "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
+    css: ["../css/style.css", "../css/themes/spotify.css", "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
     number_sections: false
 links-to-footnotes: true
 knit: pagedown::chrome_print
@@ -15,7 +15,7 @@ knit: pagedown::chrome_print
 <!-- see spotify.css -->
 
 <!-- CONTENT -->
-<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/cv.pdf" download="cv.pdf">here</a></div>
+<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/spotify.pdf" download="spotify.pdf">here</a></div>
 <div class="cv-page-wrapper">
 <div class="cv-head-wrapper">
 <div class="cv-head-left">
