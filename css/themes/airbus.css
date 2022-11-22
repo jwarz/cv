@@ -11,6 +11,14 @@
 }
 
 /* FONT */
+@font-face {font-family: "Helvetica-Neue-LT-Std-35-Thin";
+    src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-35-Thin.otf") format("opentype");
+}
+
+@font-face {font-family: "Helvetica-Neue-LT-Std-45-Light";
+    src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-45-Light.otf") format("opentype");
+}
+
 @font-face {font-family: "Helvetica-Neue-LT-Std-55-Roman";
     src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-55-Roman.otf") format("opentype");
 }
@@ -44,7 +52,8 @@ h2:hover {
 }
 
 h2 {
-  font-family: 'Helvetica-Neue-LT-Std-55-Roman';
+  color: #00205b;
+  font-family: 'Helvetica-Neue-LT-Std-35-Thin';
   letter-spacing: 0.2em;
   transition: background-color 2s ease-out 100ms
 }
