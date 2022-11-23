@@ -1,7 +1,13 @@
+# Output files
+docs/
+*.html
+*_files/
+
+# Ignore Mac DS_Store files
 .DS_Store
-.Rhistory
-.Rproj.user
-index.Rmd
-profile2.png
-profile.jpg
+**/.DS_Store
+
+# RStudio files
+.rproj
+.Rproj.user/
 cv.Rproj
