@@ -1,6 +1,6 @@
 /* PROFILE IMAGE & background*/
 .cv-head-right2 {
-  background-image: url('../../images/no-frill.png'), linear-gradient(to right, #00205b, #00205b);
+  background-image: url('../../../images/no-frill.png'), linear-gradient(to right, #00205b, #00205b);
   background-size: 100%; 
   background-repeat: no-repeat;
   transition: .3s ease-in-out;
@@ -12,23 +12,15 @@
 
 /* FONT */
 @font-face {font-family: "Helvetica-Neue-LT-Std-35-Thin";
-    src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-35-Thin.otf") format("opentype");
-}
-
-@font-face {font-family: "Helvetica-Neue-LT-Std-45-Light";
-    src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-45-Light.otf") format("opentype");
+    src: url("../../../fonts/airbus/Helvetica-Neue-LT-Std-35-Thin.otf") format("opentype");
 }
 
 @font-face {font-family: "Helvetica-Neue-LT-Std-55-Roman";
-    src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-55-Roman.otf") format("opentype");
+    src: url("../../../fonts/airbus/Helvetica-Neue-LT-Std-55-Roman.otf") format("opentype");
 }
 
 @font-face {font-family: "Helvetica-Neue-LT-Std-75-Bold";
-    src: url("../../fonts/airbus/Helvetica-Neue-LT-Std-75-Bold.otf") format("opentype");
-}
-
-@font-face {font-family: "LynoStan";
-    src: url("../../fonts/lhi/LynoStan.otf") format("opentype");
+    src: url("../../../fonts/airbus/Helvetica-Neue-LT-Std-75-Bold.otf") format("opentype");
 }
 
 /* FONT */
@@ -92,4 +84,16 @@ hr {
     color: #000;
     height: 1px;
     transform: scaleY(0.5);
+}
+svg:hover{
+  fill: #fff;
+  transition: fill 0.5s ease;
+}
+.svg-container-outer{
+  padding: 0 10.5em 0.8em 0;
+}
+.svg-container-inner:hover{
+  padding: 0.2em 0.2em 0em 0.2em;
+  background-color: #00205b;
+  transition: background-color: 0.5s ease;
 }
