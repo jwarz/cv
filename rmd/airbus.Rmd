@@ -15,7 +15,7 @@ knit: pagedown::chrome_print
 <!-- see lhi.css -->
 
 <!-- CONTENT -->
-<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/classic.pdf" download="classic.pdf">here</a></div>
+<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/airbus.pdf" download="classic.pdf">here</a></div>
 <div class="cv-page-wrapper">
 <div class="cv-head-wrapper">
 <div class="cv-head-left">
