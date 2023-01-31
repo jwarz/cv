@@ -1,0 +1,100 @@
+/* PROFILE IMAGE & background*/
+.cv-head-right2 {
+  border-radius: 25px;
+  /*border: 2px solid #73AD21;*/
+  background-image: url('../../../images/no-frill.png'), linear-gradient(to right, #F7B1C6, #F7B1C6);
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  transition: .3s ease-in-out;
+}
+
+.cv-head-right2:hover {
+  background-size: 120%;
+}
+
+/* FONT */
+@font-face {font-family: "Helvetica-Neue-LT-Std-35-Thin";
+    src: url("../../../fonts/airbus/Helvetica-Neue-LT-Std-35-Thin.otf") format("opentype");
+}
+
+@font-face {font-family: "Helvetica-Neue-LT-Std-55-Roman";
+    src: url("../../../fonts/airbus/Helvetica-Neue-LT-Std-55-Roman.otf") format("opentype");
+}
+
+@font-face {font-family: "Helvetica-Neue-LT-Std-75-Bold";
+    src: url("../../../fonts/airbus/Helvetica-Neue-LT-Std-75-Bold.otf") format("opentype");
+}
+
+@font-face {font-family: "KlarnaHeadline-Light";
+    src: url("../../../fonts/klarna/KlarnaHeadline-Light.ttf") format("truetype");
+}
+
+/* FONT */
+body {
+  font-family: 'Helvetica-Neue-LT-Std-55-Roman', sans-serif;
+}
+
+/* SECTION HEADERS */
+.fa-stack-1x {
+  color: #000;
+}
+
+.fa-stack-2x {
+  color: #F7B1C6;
+}
+
+h2:hover {
+  background-color: #000;
+  color: #F7B1C6;
+  /*mix-blend-mode: difference;*/
+}
+
+h2 {
+  color: #000;
+  font-family: 'KlarnaHeadline-Light';
+  letter-spacing: 0.2em;
+  transition: background-color 2s ease-out 100ms
+}
+
+h2 span {
+  margin-left: 0px;
+}
+
+.cv-contact-table td {
+  opacity: 0.6;
+}
+.cv-contact-table td:hover {
+  opacity: 1;
+}
+
+.cv-entry-employer, 
+.cv-entry-date {
+  font-family: "Helvetica-Neue-LT-Std-75-Bold";
+}
+.cv-entry-job-title {
+  font-style: italic;
+}
+
+.fa-stack.small { 
+  font-size: 0.7em; 
+}
+
+hr {
+    /*border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    transform: scaleY(0.5);*/
+    background-color: #000;
+    border: 0 none;
+    color: #000;
+    height: 1px;
+    transform: scaleY(0.5);
+}
+svg:hover{
+  fill: white;
+  transition: fill 0.5s ease;
+}
+.svg-container-outer{
+  padding: 0 7em 0.8em 0;
+}
