@@ -12,15 +12,15 @@
 
 /* FONT */
 @font-face {font-family: "LufthansaText-Regular";
-    src: url("../../fonts/lhi/LufthansaText-Regular.otf") format("opentype");
+    src: url("../../../fonts/lhi/LufthansaText-Regular.otf") format("opentype");
 }
 
 @font-face {font-family: "LufthansaText-Bold";
-    src: url("../../fonts/lhi/LufthansaText-Bold.otf") format("opentype");
+    src: url("../../../fonts/lhi/LufthansaText-Bold.otf") format("opentype");
 }
 
 @font-face {font-family: "LynoStan";
-    src: url("../../fonts/lhi/LynoStan.otf") format("opentype");
+    src: url("../../../fonts/lhi/LynoStan.otf") format("opentype");
 }
 
 /* FONT */
