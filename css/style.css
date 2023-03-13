@@ -1,6 +1,6 @@
 /*Set Last updated value*/
 :root{
-  --last-updated: " \00a0 \00a0 \00a0 \00a0 Last updated: November 2022";
+  --last-updated: " \00a0 \00a0 \00a0 \00a0 Last updated: March 2023";
 }
 
 /* THIS CREATES BASIC PAGED LAYOUT IN COMBINATION WITH PAGED.HTML */
@@ -82,7 +82,6 @@ ul {
 /* SECTION HEADER SETTINGS */
 h2 {
   font-size: calc(var(--root-font-size) + 4pt);
-  text-transform: uppercase;
 }
 
 h2 span {
