@@ -1,6 +1,7 @@
 /* PROFILE IMAGE & background*/
 .cv-head-right2 {
   border-radius: 25px;
+  /*border-top-left-radius:25px;*/
   /*border: 2px solid #73AD21;*/
   background-image: url('../../../images/no-frill.png'), linear-gradient(to right, #1e347b, #1e347b);
   background-size: 100%; 
