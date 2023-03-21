@@ -8,6 +8,7 @@ docs/
 **/.DS_Store
 
 # RStudio files
+.Rhistory
 .rproj
 .Rproj.user/
 cv.Rproj
