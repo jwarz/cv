@@ -1,0 +1,99 @@
+/* PROFILE IMAGE & background*/
+.cv-head-right2 {
+  border-radius: 25px;
+  /*border-top-left-radius:25px;*/
+  /*border: 2px solid #fbc458;*/
+  background-image: url('../../../images/no-frill.png'), linear-gradient(to right, #005588, #005588);
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  transition: .3s ease-in-out;
+}
+
+.cv-head-right2:hover {
+  background-size: 120%;
+}
+
+/* FONT
+@font-face {font-family: "ApercuMOIA-Light-v4.0";
+    src: url("../../../fonts/moia/ApercuMOIA-Light-v4.0.otf") format("opentype");
+}
+
+@font-face {font-family: "ApercuMOIA-Bold-v4.0";
+    src: url("../../../fonts/moia/ApercuMOIA-Bold-v4.0.otf") format("opentype");
+} */
+
+/* FONT */
+body {
+  font-family: univers, Helvetica, sans-serif; 
+}
+
+/* SECTION HEADERS */
+.fa-stack-1x {
+  color: #fff;
+}
+
+.fa-stack-2x {
+  color: #005588; /*color: #7c7c7a;*/
+}
+
+
+h2:hover {
+  background-color: #005588;
+  color: #fff;
+  /*mix-blend-mode: difference;*/
+}
+
+h2 {
+  font-kerning: none;
+  font-stretch: condensed;
+  font-weight: 500;
+  color: #005588;
+  font-family: univers, Helvetica, sans-serif; 
+  transition: background-color 2s ease-out 100ms
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+h2 span {
+  margin-left: 0px;
+}
+
+.cv-contact-table td {
+  opacity: 0.6;
+}
+.cv-contact-table td:hover {
+  opacity: 1;
+}
+
+.cv-entry-employer, 
+.cv-entry-date {
+  font-family: univers, Helvetica, sans-serif; 
+  font-weight: bold;
+}
+.cv-entry-job-title {
+  font-style: italic;
+}
+
+.fa-stack.small { 
+  font-size: 0.7em; 
+}
+
+hr {
+    /*border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    transform: scaleY(0.5);*/
+    background-color: #000;
+    border: 0 none;
+    color: #000;
+    height: 1px;
+    transform: scaleY(0.5);
+}
+svg:hover{
+  fill: white;
+  transition: fill 0.5s ease;
+}
+.svg-container-outer{
+  padding: 0 2em 2em 0;
+}
