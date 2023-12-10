@@ -78,7 +78,7 @@ knit: pagedown::chrome_print
 <hr>
 <p>
 5 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of digitalisation. As <span class="cv-entry-employer">Data Analyst & Project Manager Digitalization</span> at Airbus, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of digitalisation. As <span class="cv-entry-employer">Technical Data Application Owner</span> at Airbus, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="h-first">

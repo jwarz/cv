@@ -1,0 +1,67 @@
+---
+pagetitle: Joschka's CV
+output:
+  pagedown::html_paged:
+    css: ["../docs/css/style.css", "../docs/css/themes/vestas.css", "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
+    number_sections: false
+links-to-footnotes: true
+knit: pagedown::chrome_print
+---
+
+<!-- disable phone number linking in Mobile Safari? -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Load CSS & Fonts -->
+<!-- see lhi.css -->
+
+<!-- CONTENT -->
+<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/klarna.pdf" download="classic.pdf">here</a></div>
+<div class="cv-page-wrapper">
+<div class="cv-head-wrapper">
+<div class="cv-head-left">
+<div class="svg-container-outer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560.9 187.9" fill="#174477">
+<g id="first">
+<path d="M90.6,0L74.9,62.6c-1.5,6.1-3.8,10.5-6.8,13.4c-3.5,3.4-8.4,5.1-14.7,5.1H0l2.5-10.4h40.9 c3.8,0,6.2-1.8,7.1-5.4L66.8,0H90.6z"/>
+<path d="M162.6,36.9l-7.2,28.9c-2.5,10.2-8.6,15.3-18.3,15.3H95c-7.7,0-11.5-3.2-11.5-9.7c0-1.6,0.3-3.5,0.8-5.6 l7.2-28.9c2.5-10.2,8.6-15.3,18.4-15.3h42c7.7,0,11.5,3.2,11.5,9.7C163.4,32.9,163.1,34.8,162.6,36.9z M141.1,35 c0.2-0.7,0.3-1.2,0.3-1.6c0-1.6-1-2.4-2.9-2.4h-19.7c-2.4,0-4,1.4-4.7,4.1l-8.2,32.6c-0.2,0.7-0.3,1.2-0.3,1.6c0,1.6,1,2.4,2.9,2.4 h19.7c2.4,0,4-1.3,4.7-4L141.1,35z"/>
+<path d="M243,21.6l-2.2,8.9h-42.5c-2.5,0-4,1.1-4.6,3.3l-0.8,3.2c-0.1,0.4-0.1,0.8-0.1,1.1c0,1.5,1,2.3,2.9,2.3h27.8 c8,0,12,3,12,9c0,1.2-0.2,2.5-0.5,3.9l-3.8,15.1c-2.1,8.5-8.1,12.8-17.8,12.8h-53l2.2-8.9h41.8c3,0,4.8-1.3,5.4-3.9l0.9-3.5 c0.6-2.4-0.7-3.7-3.9-3.7h-28.3c-6.7,0-10-3.2-10-9.5c0-1.9,0.3-3.9,0.9-6.2l2.2-8.5c2.6-10.2,8.2-15.3,16.8-15.3H243z"/>
+<path d="M314.3,21.6l-2.3,9.4h-36.8c-2.4,0-4,1.4-4.7,4.1l-8.2,32.6c-0.2,0.7-0.3,1.2-0.3,1.6c0,1.6,1,2.4,2.9,2.4 h36.8l-2.3,9.4h-48c-7.7,0-11.5-3.2-11.5-9.7c0-1.6,0.3-3.5,0.8-5.6l7.2-28.9c2.5-10.2,8.6-15.3,18.3-15.3H314.3z"/>
+<path d="M344.6,21.5h34.1c7.5,0,11.3,3.2,11.3,9.7c0,1.7-0.3,3.6-0.8,5.7l-11,44h-22l11.5-46.1 c0.2-0.6,0.3-1.1,0.3-1.6c0-1.6-1.1-2.4-3.2-2.4h-18.5c-2.6,0-4.3,1.4-4.9,4.1L329.8,81h-22l17.2-68.6L350,0 M345.1,21.5h33.6 M378.6,21.5"/>
+<path d="M472.4,21.6l-25.7,15.7L459.9,81h-23.8l-9.4-30.8l-10.4,6.6L410.3,81h-22l20.2-81h22L419.3,45l36.3-23.4H472.4 z"/>
+<path d="M480.5,81c-7.2,0-10.8-3.4-10.8-10.1c0-2.4,0.4-5.5,1.3-9.1l0.6-2.8c1.5-6.8,3.8-11.7,6.9-14.7 c3.1-3,7.3-4.5,12.6-4.5h34.4l1.8-6.8c0.4-1.7-0.4-2.5-2.4-2.5H481l2.2-8.9h54.2c7.8,0,11.8,3.2,11.8,9.7c0,1.7-0.3,3.6-0.8,5.7 l-11,44 M523.3,49.1h-23.4c-2.4,0-4,1.3-4.7,4l-3.7,14.6c-0.2,0.7-0.3,1.2-0.3,1.6c0,1.5,0.8,2.3,2.5,2.3h20.1c2.4,0,4-1.3,4.7-3.9 L523.3,49.1z"/>
+</g>
+<g id="last">
+<path d="M191.7,128.4h34.1c7.5,0,11.3,3.2,11.3,9.7c0,1.7-0.3,3.6-0.8,5.7l-11,44h-22l11.5-46.1 c0.2-0.6,0.3-1.1,0.3-1.6c0-1.6-1.1-2.4-3.2-2.4h-18.5c-2.6,0-4.3,1.4-4.9,4.1l-11.5,46.1h-22l17.2-68.6l25.1-12.4 M192.2,128.4 h33.6 M225.8,128.4"/>
+<path d="M94.3,106.9l-2.7,10.4H45.2c-3,0-4.9,1.5-5.7,4.6l-2.2,8.6c-0.2,0.7-0.3,1.3-0.3,1.8c0,1.7,1.1,2.5,3.4,2.5 h30.9c8.4,0,12.7,3.5,12.7,10.6c0,1.5-0.2,3.2-0.6,5.1L78,172.2c-2.6,10.5-9.1,15.7-19.5,15.7H0l2.5-10.4h46.8 c2.9,0,4.7-1.6,5.4-4.8l2.7-10.9c0.2-0.8,0.3-1.4,0.3-2c0-1.7-1.1-2.5-3.3-2.5H23.2c-8.2,0-12.3-3.5-12.3-10.5 c0-1.6,0.3-3.4,0.8-5.4l4.6-18.5c2.6-10.6,9.2-15.9,19.6-15.9H94.3z"/>
+<path d="M161.5,128.4l-2.3,9.4h-36.8c-2.4,0-4,1.4-4.7,4l-8.2,32.6c-0.2,0.7-0.3,1.2-0.3,1.6c0,1.6,1,2.4,2.9,2.4h36.8 l-2.3,9.4h-48c-7.7,0-11.5-3.2-11.5-9.7c0-1.6,0.3-3.5,0.8-5.6l7.2-28.9c2.5-10.2,8.6-15.3,18.4-15.3H161.5z"/>
+<path d="M349,128.4l-30.1,59.5H296l-1.3-48h-0.3l-23.5,48h-23.3l-1.5-59.5h21.5l1.6,43h0.3l21.3-43h25.6l1.3,43h0.3 l20.9-43H349z"/>
+<path d="M353.8,187.9c-7.2,0-10.8-3.4-10.8-10.1c0-2.4,0.4-5.5,1.3-9.1l0.6-2.8c1.5-6.8,3.8-11.7,6.9-14.7 c3.1-3,7.3-4.5,12.6-4.5h34.4l1.8-6.8c0.4-1.7-0.4-2.5-2.4-2.5h-43.9l2.2-8.9h54.2c7.8,0,11.8,3.2,11.8,9.7c0,1.7-0.3,3.6-0.8,5.7 l-11,44 M396.6,156h-23.4c-2.4,0-4,1.4-4.7,4l-3.7,14.6c-0.2,0.7-0.3,1.2-0.3,1.6c0,1.5,0.8,2.3,2.5,2.3h20.1c2.4,0,4-1.3,4.7-3.9 L396.6,156z"/>
+<path d="M464.9,128.4h18.6l-2.9,11.9h-23.3c-2.6,0-4.3,1.4-4.9,4l-10.9,43.5h-22l14.8-59.5h19.9"/>
+<path d="M560.9,128.4L510.8,179h39.1l-2.2,8.9h-72l50.2-50.6h-35.1l2.2-8.9H560.9z"/>
+</g>
+</svg>
+</div>
+<table class="cv-contact-table">
+<tr>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:joschka.schwarz@tuhh.de">&nbsp;joschka.schwarz@tuhh.de</a></td>
+<td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
+</tr>
+<tr>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" target="_blank" href="https://linkedin.com/in/j-schwarz">&nbsp;linkedin.com/in/j-schwarz</a></td>
+<td><i class="fa-solid fa-globe fa-fw"></i><a class="no-hyper" target="_blank" href="https://jschwarz.me">&nbsp;jschwarz.me</a></td>
+</tr>
+</table>
+</div>
+<div class="cv-head-right2"></div>
+</div>
+<hr>
+<h2 class="cl-heading">Cover Letter</h2>
+<p>
+Dear Vestas Hiring Team,
+</p>
+<p>
+5 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
+<p>
+I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">People Data Scientist</span> at Vestas, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).
+</p>
+</div>
