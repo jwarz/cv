@@ -1,0 +1,112 @@
+/* PROFILE IMAGE & background*/
+.cv-head-wrapper2 {
+  display: grid;
+  grid-template-columns: 85% 1fr;
+  margin-bottom: 20px;
+}
+
+.cv-contact-table2 {
+	width:400px;
+	font-size: var(--root-font-size);
+}
+
+/* FONT */
+@font-face {font-family: "LufthansaText-Regular";
+    src: url("../../../fonts/lhi/LufthansaText-Regular.otf") format("opentype");
+}
+
+@font-face {font-family: "LufthansaText-Bold";
+    src: url("../../../fonts/lhi/LufthansaText-Bold.otf") format("opentype");
+}
+
+@font-face {font-family: "LufthansaHead-Light";
+    src: url("../../../fonts/lhi/LufthansaHead-Light.otf") format("opentype");
+}
+
+@font-face {font-family: "Narcissusopensg";
+    src: url("../../../fonts/zeit/narcissusopensg.ttf") format("truetype");
+}
+
+
+
+/* FONT */
+body {
+  font-family: 'LufthansaText-Regular', sans-serif;
+}
+
+/* SECTION HEADERS */
+.fa-stack-1x {
+  color: #fff;
+}
+
+.fa-stack-2x {
+  color: #191914;
+}
+
+h2:hover {
+  background-color: #191914;
+  color: #fff;
+  /*mix-blend-mode: difference;*/
+}
+
+h2 {
+  color: #191914;
+  font-family: 'Narcissusopensg';
+  letter-spacing: 0.2em;
+  font-weight: 100;
+  font-size: 150%;
+  transition: background-color 2s ease-out 100ms
+}
+
+h2 span {
+  margin-left: 0px;
+}
+
+.cv-contact-table2 td {
+  opacity: 0.6;
+}
+.cv-contact-table2 td:hover {
+  opacity: 1;
+}
+
+.cv-entry-employer, 
+.cv-entry-date {
+  font-family: "LufthansaText-Bold";
+}
+.cv-entry-job-title {
+  font-style: italic;
+}
+
+.fa-stack.small { 
+  font-size: 0.7em; 
+}
+
+hr {
+    /*border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    transform: scaleY(0.5);*/
+    background-color: #000;
+    border: 0 none;
+    color: #000;
+    height: 1px;
+    transform: scaleY(0.5);
+}
+svg:hover{
+  fill: white;
+  transition: fill 0.5s ease;
+}
+.svg-container-outer{
+  padding: 0 5em 0.7em 0;
+}
+
+/*
+.fn-border {
+  
+  -webkit-text-fill-color: #E64415;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+}
+*/

@@ -25,6 +25,10 @@
     src: url("../../../fonts/lhi/LufthansaHead-Light.otf") format("opentype");
 }
 
+@font-face {font-family: "Athletic";
+    src: url("../../../fonts/spiegel/athletic.ttf") format("truetype");
+}
+
 /* FONT */
 body {
   font-family: 'LufthansaText-Regular', sans-serif;
@@ -47,9 +51,14 @@ h2:hover {
 
 h2 {
   color: #E64415;
-  font-family: 'LufthansaHead-Light';
+  font-family: 'Athletic';
   letter-spacing: 0.2em;
   transition: background-color 2s ease-out 100ms
+  text-transform: uppercase;
+}
+
+cl-heading {
+  
 }
 
 h2 span {

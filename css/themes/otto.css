@@ -1,0 +1,159 @@
+/* PROFILE IMAGE & background*/
+.cv-head-right2 {
+  border-radius: 5px;
+  border: 2px solid black;
+  background-image: url('../../../images/no-frill.png'), linear-gradient(to right, #DB1F26, #DB1F26);
+  background-size: 100%; 
+  background-repeat: no-repeat;
+  transition: .3s ease-in-out;
+}
+
+.cv-head-right2:hover {
+  background-size: 120%;
+}
+
+/* FONT */
+@font-face {font-family: "LufthansaText-Regular";
+    src: url("../../../fonts/lhi/LufthansaText-Regular.otf") format("opentype");
+}
+
+@font-face {font-family: "LufthansaText-Bold";
+    src: url("../../../fonts/lhi/LufthansaText-Bold.otf") format("opentype");
+}
+
+@font-face {font-family: "LufthansaHead-Light";
+    src: url("../../../fonts/lhi/LufthansaHead-Light.otf") format("opentype");
+}
+
+@font-face {
+    src: url(../../../fonts/otto/OTTOSans-Black-2v1-OTTOsubset.woff2) format("woff2");
+    src: url(../../../fonts/otto/OTTOSans-Black-2v1-OTTOsubset.woff) format("woff");
+    font-family: OSBlack;
+    font-style: normal;
+    font-weight: 400;
+    font-display:swap
+}
+
+@font-face {
+    src: url(../../../fonts/otto/OTTOSans-Bold-2v1-OTTOsubset.woff2) format("woff2");
+    src: url(../../../fonts/otto/OTTOSans-Bold-2v1-OTTOsubset.woff) format("woff");
+    font-family: OSBold;
+    font-style: normal;
+    font-weight: 400;
+    font-display:swap
+}
+
+@font-face {
+    src: url(../../../fonts/otto/OTTOSans-Regular-2v1-OTTOsubset.woff2) format("woff2");
+    src: url(../../../fonts/otto/OTTOSans-Regular-2v1-OTTOsubset.woff) format("woff");
+    font-family: OSRegular;
+    font-style: normal;
+    font-weight: 400;
+    font-display:swap
+}
+
+@font-face {
+    src: url(../../../fonts/otto/OTTOSans-Light-2v2b.woff2) format("woff2");
+    src: url(../../../fonts/otto/OTTOSans-Light-2v2b.woff) format("woff");
+    font-family: OSLight;
+    font-weight: 400;
+    font-display: swap;
+    font-style:normal
+}
+
+
+/* FONT */
+body {
+  font-family: 'OSLight', sans-serif;
+}
+
+/* SECTION HEADERS */
+.fa-stack-1x {
+  color: #fff;
+}
+
+.fa-stack-2x {
+  color: #DB1F26;
+}
+
+h2:hover {
+  background-color: #DB1F26;
+  color: #fff;
+  /*mix-blend-mode: difference;*/
+}
+
+h2 {
+  color: #DB1F26;
+  font-family: 'OSBold', sans-serif;
+  text-transform: uppercase;
+  font-size: 0.8em;
+  font-weight: 400 !important;  
+  letter-spacing: .75px;
+  transition: background-color 2s ease-out 100ms;
+  padding-top: 1em;
+}
+
+h2 span {
+  margin-left: 0px;
+}
+
+.cv-contact-table td {
+  opacity: 0.6;
+}
+.cv-contact-table td:hover {
+  opacity: 1;
+}
+
+.cv-entry-employer, 
+.cv-entry-date {
+  font-family: "LufthansaText-Bold";
+}
+.cv-entry-job-title {
+  font-style: italic;
+}
+
+.fa-stack.small { 
+  font-size: 0.7em; 
+}
+
+hr {
+    /*border: 0;
+    height: 1px;
+    background: #333;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+    transform: scaleY(0.5);*/
+    background-color: #000;
+    border: 0 none;
+    color: #000;
+    height: 1px;
+    transform: scaleY(0.5);
+}
+svg:hover{
+  fill: white;
+  transition: fill 0.5s ease;
+}
+.svg-container-outer{
+  padding: 0 3em 0.8em 0;
+}
+
+/*
+.fn-border {
+  
+  -webkit-text-fill-color: #DB1F26;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  
+}
+*/
+
+.ot-cl {
+  
+  	font-family: 'OSRegular', sans-serif;
+  	font-size: 2em; 
+  	color: #DB1F26;
+}
+
+span svg {
+  height: 0.6em;
+  vertical-align: super; /* ADDED */
+}
