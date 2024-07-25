@@ -1,0 +1,81 @@
+---
+pagetitle: Joschka's CV
+output:
+  pagedown::html_paged:
+    css: ["../docs/css/style.css", "../docs/css/themes/statista.css", "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
+    number_sections: false
+links-to-footnotes: true
+knit: pagedown::chrome_print
+---
+
+<!-- disable phone number linking in Mobile Safari? -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Load CSS & Fonts -->
+<!-- see lhi.css -->
+
+<!-- CONTENT -->
+<div class="cv-page-wrapper">
+<div class="cv-head-wrapper">
+<div class="cv-head-left">
+<div class="svg-container-outer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1999.7 258.3" >
+<style type="text/css">
+.st0{fill:#0F2741;}
+</style>
+<path id="path4517" class="st0" d="M1808.9,13.7c-1.8,0-3.6,0.7-4.9,2c-1.3,1.3-2,3.1-2,4.9v125.6h1c0,0,29.8-0.6,42.4-7.2c10.8-6.4,20.2-15,27.5-25.2l7.5-10.5l2.4-3.4c0.3-0.3,1.5-2.1,2.2-3.2c0.7-1,3.8-5.4,6.7-9.7c11.6-16,26.4-29.3,43.4-39.1c27.5-14.2,64-12.7,64-12.7h0.6V21.1c0.1-1.9-0.6-3.8-1.9-5.2c-1.3-1.4-3.1-2.2-5.1-2.2H1808.9z M1999.7,79.3c-0.6,0.2-1.2,0.2-1.8,0.2c0,0-29.8,0.6-42.5,7.3c-10.8,6.4-20.2,14.9-27.5,25.1l-7.3,10.6c-1.1,1.5-2.1,3-2.4,3.4l-2.2,3.2l-6.7,9.7c0,0-18,25.9-43.4,39.1c-26.4,13.7-61,12.8-63.8,12.7v14.2c0,1.9,0.7,3.6,2,5c1.3,1.3,3.1,2.1,4.9,2.1h183.9c1.8,0,3.6-0.7,4.9-2c1.3-1.3,2-3.1,2-4.9V79.3z"/>
+<g id="name">
+<path class="st0" d="M0,229.5h3.9c13.1,0,15.1-6,15.1-21.1V55.9h32.9v152.5c0,35.3-8,49.9-38.9,49.9c-3.6,0-7.7-0.6-13.1-1.1V229.5z M19,0h32.9v29.1H19V0z"/>
+<path class="st0" d="M131.7,52.5c34.7,0,52.8,26.8,52.8,79.8c0,53-18.1,79.5-52.8,79.5s-53.1-26.5-53.1-79.5C78.6,79.2,97,52.5,131.7,52.5z M131.7,185c13.3,0,19-17.4,19-52.7c0-35.3-5.6-52.7-19-52.7s-19.3,17.4-19.3,52.7C112.4,167.6,118.3,185,131.7,185z"/>
+<path class="st0" d="M230.5,161.9c3.3,16,11.9,24.5,22.5,24.5c9.8,0,16.3-6,16.3-14.8c0-12.5-14.2-19.7-33.8-34.8c-19-14.8-28.8-27.4-28.8-43.3c0-23.9,18.4-41,45.1-41c24.3,0,41.5,14.3,46.6,39.6l-27.6,4.6c-2.1-13.4-7.7-19.7-18.1-19.7c-9.2,0-15.7,6-15.7,13.7c0,13.4,16.3,21.1,37.7,37.1c16.9,12.8,24.9,24.8,24.9,41c0,25.1-19,43-47.5,43c-26.1,0-43.9-15.4-49.8-43L230.5,161.9z"/>
+<path class="st0" d="M370.2,79.5c-13.3,0-19.3,17.4-19.3,52.7c0,35.3,5.9,52.7,19.3,52.7c11.3,0,17.5-11.4,17.8-33.6h32.3c-1.2,39.3-19.6,60.4-50.1,60.4c-34.7,0-53.1-26.5-53.1-79.5c0-53,18.4-79.8,53.1-79.8c29.1,0,48.6,20.8,49.8,56.4h-32.3C387.7,90.1,380.2,79.5,370.2,79.5z"/>
+<path class="st0" d="M446.1,0H479v69.6c11.3-11.4,22.2-17.1,34.4-17.1c24.3,0,30.3,15.1,30.3,45.6v110.3h-33.2V96.6c0-12.3-3.3-18.2-10.1-18.2c-8.6,0-14.8,4-21.4,12.3v117.7h-32.9V0z"/>
+<path class="st0" d="M646.6,55.9h36.2l-35.6,47.6l39.5,104.9h-34.4l-28.2-78.1l-13.6,18.2v59.9h-32.9V0h32.9v106L646.6,55.9z"/>
+<path class="st0" d="M764.9,194.7c-12.2,10.8-24.3,16.2-38,16.2c-21.4,0-33.8-13.1-33.8-35.3c0-30.2,23.4-52.5,70.9-67.3V97.5c0-12.5-4.7-18.8-15.7-18.8c-11.6,0-18.7,7.7-19.6,21.7h-32.6C698.5,71,719,53,749.5,53c17.8,0,32,6,39.7,16c7.7,10,8.3,22.2,8.3,37.3v63.3c0,15.1,0.6,27.9,1.8,38.8h-32.6L764.9,194.7z M726.4,170.5c0,9.1,6.2,15.4,14.5,15.4c7.1,0,15.1-5.1,23.1-14.8v-39.6C739.1,143.4,726.4,156.5,726.4,170.5z"/>
+<path class="st0" d="M913,161.9c3.3,16,11.9,24.5,22.5,24.5c9.8,0,16.3-6,16.3-14.8c0-12.5-14.2-19.7-33.8-34.8c-19-14.8-28.8-27.4-28.8-43.3c0-23.9,18.4-41,45.1-41c24.3,0,41.5,14.3,46.6,39.6l-27.6,4.6c-2.1-13.4-7.7-19.7-18.1-19.7c-9.2,0-15.7,6-15.7,13.7c0,13.4,16.3,21.1,37.7,37.1c16.9,12.8,24.9,24.8,24.9,41c0,25.1-19,43-47.5,43c-26.1,0-43.9-15.4-49.8-43L913,161.9z"/>
+<path class="st0" d="M1052.7,79.5c-13.3,0-19.3,17.4-19.3,52.7c0,35.3,5.9,52.7,19.3,52.7c11.3,0,17.5-11.4,17.8-33.6h32.3c-1.2,39.3-19.6,60.4-50.1,60.4c-34.7,0-53.1-26.5-53.1-79.5c0-53,18.4-79.8,53.1-79.8c29.1,0,48.6,20.8,49.8,56.4h-32.3C1070.2,90.1,1062.7,79.5,1052.7,79.5z"/>
+<path class="st0" d="M1128.6,0h32.9v69.6c11.3-11.4,22.2-17.1,34.4-17.1c24.3,0,30.3,15.1,30.3,45.6v110.3H1193V96.6c0-12.3-3.3-18.2-10.1-18.2c-8.6,0-14.8,4-21.4,12.3v117.7h-32.9V0z"/>
+<path class="st0" d="M1246.9,55.9h31.4l13.1,80.4c0.3,2.6,1.2,12.8,2.1,31.1c0.9-12.5,2.1-23.1,3.6-30.8l16.3-80.7h24.3l17.5,80.4c0.6,2.3,1.2,12.5,2.7,31.1c0-9.4,0.9-19.7,2.7-30.8l12.5-80.7h31.7l-32.6,152.5h-26.7l-17.5-83.8c-0.6-2.9-1.5-12.3-2.4-28.5c-1.2,15.4-2.1,24.8-3,28.8l-16.9,83.5H1279L1246.9,55.9z"/>
+<path class="st0" d="M1488.7,194.7c-12.2,10.8-24.3,16.2-38,16.2c-21.4,0-33.8-13.1-33.8-35.3c0-30.2,23.4-52.5,70.9-67.3V97.5c0-12.5-4.7-18.8-15.7-18.8c-11.6,0-18.7,7.7-19.6,21.7h-32.6c2.4-29.4,22.8-47.3,53.4-47.3c17.8,0,32,6,39.7,16c7.7,10,8.3,22.2,8.3,37.3v63.3c0,15.1,0.6,27.9,1.8,38.8h-32.6L1488.7,194.7z M1450.1,170.5c0,9.1,6.2,15.4,14.5,15.4c7.1,0,15.1-5.1,23.1-14.8v-39.6C1462.9,143.4,1450.1,156.5,1450.1,170.5z"/>
+<path class="st0" d="M1553.6,55.9h30v18c11.3-14.5,22.8-21.7,38.9-21.7c2.4,0,4.7,0.3,7.4,0.6v34.5c-6.5-3.1-11.6-4.8-16.3-4.8c-11.6,0-19.9,4.8-27,15.7v110.3h-32.9V55.9z"/>
+<path class="st0" d="M1641.4,182.4l64.4-100.6h-59.6V55.9h94.3v25.9l-63.8,100.6h63.5v25.9h-98.8V182.4z"/>
+</g>
+</svg>
+</div>
+<table class="cv-contact-table">
+<tr>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:career@jschwarz.me">&nbsp;career@jschwarz.me</a></td>
+<td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
+</tr>
+<tr>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" target="_blank" href="https://linkedin.com/in/j-schwarz">&nbsp;linkedin.com/in/j-schwarz</a></td>
+<td><i class="fa-solid fa-globe fa-fw"></i><a class="no-hyper" target="_blank" hreff="https://jschwarz.me">&nbsp;jschwarz.me</a></td>
+</tr>
+</table>
+</div>
+<div class="cv-head-right3"></div>
+</div>
+<hr>
+<h2 class="cl-heading">COVER LETTER</h2>
+
+Dear Hiring Manager,
+
+I am thrilled to apply for the Data Scientist role in the ECDB team, as it perfectly aligns with my passion for leveraging data to drive strategic decisions in the e-commerce landscape. As a candidate with a strong background in quantitative research and data analysis, I am excited about the opportunity to contribute to your team and help drive ECDB's mission of empowering e-commerce businesses through data-driven insights.
+
+Having closely followed ECDB's innovative solutions and reputation for providing valuable analytics services to e-commerce companies, I am particularly drawn to the company's commitment to helping businesses thrive in the competitive online marketplace. Your focus on developing and optimizing advanced statistical models and analytics applications, coupled with the integration of machine learning for deriving actionable insights, deeply resonates with my professional aspirations. I am particularly excited about the opportunity to contribute my skills in handling large datasets and applying statistical models for predictive analytics.
+
+In the final stages of completing my doctoral dissertation, I have honed my skills in transforming intricate data sets into meaningful insights. My research has equipped me with a deep understanding of complex patterns, allowing me to provide concise explanations and
+visualizations. I am excited about the prospect of applying these skills to contribute to "drive eCommerce success from the inception of an idea to realization of objectives".
+
+What excites me most about the opportunity to work at statista / ECDB is the chance to collaborate with a team of passionate professionals who are dedicated to pushing the boundaries of data analytics in e-commerce. I am enthusiastic about the prospect of both learning from the talented individuals at your company and sharing my expertise to facilitate growth and development within the team. Embracing new challenges presents an opportunity not only for personal growth but also for contributing to the collective advancement of the team.
+
+I am particularly intrigued by the opportunity to work with statista’s tech stack. While my expertise lies in SQL and R, I am confident in my ability to quickly adapt and learn new tools, aligning with your emphasis on a team-oriented approach and deriving business-relevant knowledge from data.
+
+In conclusion, I am enthusiastic about the prospect of joining eCommerceDB and playing a role in driving the success of e-commerce businesses through data-driven insights. Thank you for considering my application. I look forward to the possibility of discussing how my background and skills can contribute to your team further.
+
+
+Warm regards,
+
+Joschka Schwarz
+
+</div>

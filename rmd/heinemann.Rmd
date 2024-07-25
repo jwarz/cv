@@ -1,0 +1,325 @@
+---
+pagetitle: Joschka's CV
+output:
+  pagedown::html_paged:
+    css: ["../docs/css/style.css", "../docs/css/themes/heinemann.css", "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
+    number_sections: false
+links-to-footnotes: true
+knit: pagedown::chrome_print
+---
+
+<!-- disable phone number linking in Mobile Safari? -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Load CSS & Fonts -->
+<!-- see lhi.css -->
+
+<!-- CONTENT -->
+<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/heinemann.pdf" download="classic.pdf">here</a></div>
+<div class="cv-page-wrapper">
+<div class="cv-head-wrapper">
+<div class="cv-head-left">
+<div class="svg-container-outer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1023.1 219.2">
+<style type="text/css">	.st0{fill:#231F20;}</style>
+<path id="path771" class="st0" d="M8,3.8c-4.4,0-8,3.6-8,8v14.8c0,4.4,3.6,8,8,8h30.3c4.4,0,8,3.6,8,8v137.9c0,4.4-3.6,8-8,8H8	c-4.4,0-8,3.6-8,8v14.8c0,4.4,3.6,8,8,8h107.7c4.4,0,8-3.6,8-8v-14.8c0-4.4-3.6-8-8-8H85c-4.4,0-8-3.6-8-8V42.6c0-4.4,3.6-8,8-8	h30.7c4.4,0,8-3.6,8-8V11.8c0-4.4-3.6-8-8-8L8,3.8z M161.8,3.8c-4.4,0-8,3.6-8,8v14.8c0,4.4,3.6,8,8,8h30.3c4.4,0,8,3.6,8,8v14.8	c0,4.4-3.6,8-8,8h-76.3c-4.4,0-8,3.6-8,8v76.3c0,4.4,3.6,8,8,8h45.6c4.4,0,8-3.6,8-8v-14.8c0-4.4-3.6-8-8-8h-14.8c-4.4,0-8-3.6-8-8	v-14.8c0-4.4,3.6-8,8-8h45.6c4.4,0,8,3.6,8,8v76.4c0,4.4-3.6,8-8,8h-30.3c-4.4,0-8,3.6-8,8v14.8c0,4.4,3.6,8,8,8h107.7	c4.4,0,8-3.6,8-8v-14.8c0-4.4-3.6-8-8-8h-30.7c-4.4,0-8-3.6-8-8V42.6c0-4.4,3.6-8,8-8h30.7c4.4,0,8-3.6,8-8V11.8c0-4.4-3.6-8-8-8L161.8,3.8z"/>
+<g>
+<path d="M333.3,46.1V1.8h13v44c0,5.4-0.9,9.6-2.7,12.8c-3.1,5.3-8.7,8-16.8,8c-8.1,0-13.5-2.2-16.3-6.5c-2.8-4.3-4.1-10.2-4.1-17.6		v-1.5h12.3v1.5c0.1,4.9,0.6,8.3,1.6,10.3c0.9,2,3,3,6.1,3c3.1,0,5.1-1.1,6.1-3.3C333,51.3,333.3,49.1,333.3,46.1z"/>
+<path d="M396.6,24.2c3.9,4.9,5.8,10.8,5.8,17.5c0,6.9-1.9,12.7-5.8,17.6c-3.9,4.9-9.8,7.3-17.7,7.3c-7.9,0-13.8-2.4-17.7-7.3		c-3.9-4.9-5.8-10.7-5.8-17.6c0-6.8,1.9-12.6,5.8-17.5c3.9-4.9,9.8-7.4,17.7-7.4C386.8,16.8,392.7,19.3,396.6,24.2z M378.9,27.2		c-3.5,0-6.2,1.3-8.1,3.8c-1.9,2.5-2.8,6.1-2.8,10.8s0.9,8.3,2.8,10.9c1.9,2.5,4.6,3.8,8.1,3.8c3.5,0,6.2-1.3,8.1-3.8		c1.9-2.5,2.8-6.2,2.8-10.9s-0.9-8.3-2.8-10.8C385.1,28.4,382.4,27.2,378.9,27.2z"/>
+<path d="M442.7,20.5c3.6,2.3,5.7,6.4,6.2,12.1h-12c-0.2-1.6-0.6-2.8-1.3-3.7c-1.3-1.7-3.6-2.5-6.8-2.5c-2.6,0-4.5,0.4-5.6,1.2		c-1.1,0.8-1.7,1.8-1.7,2.9c0,1.4,0.6,2.4,1.8,3c1.2,0.7,5.4,1.8,12.5,3.4c4.8,1.1,8.4,2.9,10.8,5.2c2.4,2.3,3.5,5.3,3.5,8.8		c0,4.6-1.7,8.4-5.1,11.3c-3.4,2.9-8.6,4.4-15.7,4.4c-7.2,0-12.6-1.6-16-4.7c-3.4-3.1-5.2-7.1-5.2-11.9h12.2		c0.3,2.2,0.8,3.7,1.6,4.6c1.5,1.6,4.2,2.4,8.3,2.4c2.4,0,4.2-0.4,5.6-1.1c1.4-0.7,2.1-1.8,2.1-3.2c0-1.4-0.6-2.4-1.7-3.1		c-1.1-0.7-5.3-1.9-12.5-3.7c-5.2-1.3-8.9-3-11-4.9c-2.1-1.9-3.2-4.7-3.2-8.4c0-4.3,1.7-8,5-11.1c3.3-3.1,8-4.7,14.1-4.7		C434.4,17,439.1,18.2,442.7,20.5z"/>
+<path d="M498.9,35.1h-12.3c-0.2-1.7-0.8-3.3-1.7-4.7c-1.4-1.9-3.4-2.8-6.3-2.8c-4.1,0-6.8,2-8.3,6.1c-0.8,2.2-1.2,5.1-1.2,8.7		c0,3.4,0.4,6.2,1.2,8.3c1.4,3.9,4.1,5.8,8.1,5.8c2.8,0,4.8-0.8,6-2.3c1.2-1.5,1.9-3.5,2.2-6h12.3c-0.3,3.7-1.6,7.2-4,10.6		c-3.8,5.3-9.4,8-16.8,8c-7.4,0-12.8-2.2-16.3-6.7c-3.5-4.5-5.2-10.3-5.2-17.4c0-8,1.9-14.3,5.8-18.8c3.9-4.5,9.2-6.7,16-6.7		c5.8,0,10.5,1.3,14.2,3.9C496.1,23.8,498.2,28.4,498.9,35.1z"/>
+<path d="M548.8,37.6v27.5h-12.3V36.6c0-2.5-0.4-4.5-1.3-6.1c-1.1-2.2-3.2-3.3-6.2-3.3c-3.2,0-5.6,1.1-7.2,3.2		c-1.6,2.2-2.5,5.2-2.5,9.2v25.3h-12v-63h12v22.4c1.7-2.7,3.8-4.6,6.1-5.7c2.3-1.1,4.7-1.6,7.2-1.6c2.8,0,5.4,0.5,7.7,1.5		c2.3,1,4.2,2.5,5.7,4.6c1.3,1.7,2,3.5,2.3,5.4C548.6,30.4,548.8,33.5,548.8,37.6z"/>
+<path d="M602.2,65.1h-14.5l-11-20l-5,5.3v14.7h-11.8v-63h11.8v34.1l15-17.6h14.9l-16.1,17.9L602.2,65.1z"/>
+<path d="M609.8,23.4c3.2-4.1,8.6-6.2,16.4-6.2c5,0,9.5,1,13.4,3c3.9,2,5.9,5.9,5.9,11.5v21.5c0,1.5,0,3.3,0.1,5.4		c0.1,1.6,0.3,2.7,0.7,3.3c0.4,0.6,1,1,1.8,1.4v1.8h-13.1c-0.4-0.9-0.6-1.8-0.8-2.7c-0.1-0.8-0.3-1.8-0.3-2.8		c-1.7,1.8-3.6,3.4-5.7,4.7c-2.6,1.5-5.5,2.3-8.8,2.3c-4.2,0-7.6-1.2-10.3-3.6c-2.7-2.4-4.1-5.8-4.1-10.3c0-5.8,2.2-9.9,6.5-12.5		c2.4-1.4,5.9-2.4,10.6-3l4.1-0.5c2.2-0.3,3.8-0.6,4.8-1.1c1.7-0.7,2.6-1.9,2.6-3.5c0-1.9-0.7-3.2-2-4s-3.2-1.1-5.8-1.1		c-2.8,0-4.9,0.7-6,2.1c-0.8,1.1-1.4,2.5-1.7,4.3h-11.6C606.7,29.4,607.8,26,609.8,23.4z M618.7,56.3c1.1,0.9,2.5,1.4,4.1,1.4		c2.6,0,5-0.8,7.2-2.3c2.2-1.5,3.3-4.4,3.4-8.5v-4.5c-0.8,0.5-1.5,0.9-2.3,1.2c-0.8,0.3-1.8,0.6-3.2,0.8l-2.7,0.5		c-2.5,0.5-4.3,1-5.4,1.7c-1.9,1.1-2.8,2.8-2.8,5.2C617,53.8,617.6,55.3,618.7,56.3z"/>
+<path d="M703.7,56c3.1,0,5.6-0.3,7.5-1c3.6-1.3,5.4-3.8,5.4-7.3c0-2.1-0.9-3.7-2.7-4.8c-1.8-1.1-4.6-2.1-8.5-3l-6.6-1.5		c-6.5-1.5-10.9-3.1-13.4-4.8c-4.2-2.9-6.3-7.5-6.3-13.7c0-5.7,2-10.4,6.1-14.1c4.1-3.7,10-5.6,17.9-5.6c6.6,0,12.1,1.8,16.8,5.3		c4.6,3.5,7.1,8.7,7.3,15.4h-12.5c-0.2-3.8-1.9-6.5-4.9-8.1c-2-1.1-4.5-1.6-7.6-1.6c-3.3,0-6,0.7-8,2.1s-3,3.3-3,5.7		c0,2.3,1,3.9,3,5.1c1.3,0.7,4,1.6,8.1,2.6l10.7,2.6c4.7,1.1,8.2,2.7,10.6,4.6c3.7,3,5.6,7.3,5.6,12.9c0,5.8-2.2,10.6-6.5,14.4		s-10.5,5.7-18.4,5.7c-8.1,0-14.5-1.9-19.1-5.6c-4.6-3.8-7-8.9-7-15.5h12.4c0.4,2.9,1.2,5,2.3,6.5C695,54.7,698.6,56,703.7,56z"/>
+<path d="M777.6,35.1h-12.3c-0.2-1.7-0.8-3.3-1.7-4.7c-1.4-1.9-3.4-2.8-6.3-2.8c-4.1,0-6.8,2-8.3,6.1c-0.8,2.2-1.2,5.1-1.2,8.7		c0,3.4,0.4,6.2,1.2,8.3c1.4,3.9,4.1,5.8,8.1,5.8c2.8,0,4.8-0.8,6-2.3c1.2-1.5,1.9-3.5,2.2-6h12.3c-0.3,3.7-1.6,7.2-4,10.6		c-3.8,5.3-9.4,8-16.8,8c-7.4,0-12.8-2.2-16.3-6.7c-3.5-4.5-5.2-10.3-5.2-17.4c0-8,1.9-14.3,5.8-18.8c3.9-4.5,9.2-6.7,16-6.7		c5.8,0,10.5,1.3,14.2,3.9C774.8,23.8,776.9,28.4,777.6,35.1z"/>
+<path d="M827.5,37.6v27.5h-12.3V36.6c0-2.5-0.4-4.5-1.3-6.1c-1.1-2.2-3.2-3.3-6.2-3.3c-3.2,0-5.6,1.1-7.2,3.2		c-1.6,2.2-2.5,5.2-2.5,9.2v25.3h-12v-63h12v22.4c1.7-2.7,3.8-4.6,6.1-5.7c2.3-1.1,4.7-1.6,7.2-1.6c2.8,0,5.4,0.5,7.7,1.5		c2.3,1,4.2,2.5,5.7,4.6c1.3,1.7,2,3.5,2.3,5.4C827.3,30.4,827.5,33.5,827.5,37.6z"/>
+<path d="M873.6,65.1L866.4,31l-7.3,34.1h-12.5l-12.9-46.8h12.9l7.2,33.6l6.6-33.6h12.2l7,33.7l7.2-33.7h12.5L886,65.1H873.6z"/>
+<path d="M907.7,23.4c3.2-4.1,8.6-6.2,16.4-6.2c5,0,9.5,1,13.4,3c3.9,2,5.9,5.9,5.9,11.5v21.5c0,1.5,0,3.3,0.1,5.4		c0.1,1.6,0.3,2.7,0.7,3.3c0.4,0.6,1,1,1.8,1.4v1.8h-13.1c-0.4-0.9-0.6-1.8-0.8-2.7c-0.1-0.8-0.3-1.8-0.3-2.8		c-1.7,1.8-3.6,3.4-5.7,4.7c-2.6,1.5-5.5,2.3-8.8,2.3c-4.2,0-7.6-1.2-10.3-3.6c-2.7-2.4-4.1-5.8-4.1-10.3c0-5.8,2.2-9.9,6.5-12.5		c2.4-1.4,5.9-2.4,10.6-3l4.1-0.5c2.2-0.3,3.8-0.6,4.8-1.1c1.7-0.7,2.6-1.9,2.6-3.5c0-1.9-0.7-3.2-2-4s-3.2-1.1-5.8-1.1		c-2.8,0-4.9,0.7-6,2.1c-0.8,1.1-1.4,2.5-1.7,4.3h-11.6C904.5,29.4,905.7,26,907.7,23.4z M916.6,56.3c1.1,0.9,2.5,1.4,4.1,1.4		c2.6,0,5-0.8,7.2-2.3c2.2-1.5,3.3-4.4,3.4-8.5v-4.5c-0.8,0.5-1.5,0.9-2.3,1.2c-0.8,0.3-1.8,0.6-3.2,0.8l-2.7,0.5		c-2.5,0.5-4.3,1-5.4,1.7c-1.9,1.1-2.8,2.8-2.8,5.2C914.9,53.8,915.5,55.3,916.6,56.3z"/>
+<path d="M977.1,29.6c-4.8,0-8.1,1.6-9.8,4.8c-0.9,1.8-1.4,4.6-1.4,8.3v22.4h-12.1V18.3h11.5v8.2c1.9-3.1,3.5-5.2,4.9-6.4		c2.2-1.9,5.2-2.9,8.8-2.9c0.2,0,0.4,0,0.6,0c0.2,0,0.5,0,1,0.1v12.5c-0.8-0.1-1.4-0.1-2-0.2C978,29.6,977.5,29.6,977.1,29.6z"/>
+<path d="M1023.1,65.1h-39.7v-9.5l23.6-27.3h-22v-10h37.3v10.2L999,55.1h24.1V65.1z"/>
+</g>
+<g>
+<path d="M310.6,87.6h14.6c4.9,0,8.8,1.8,11.5,5.4c2.4,3.3,3.6,7.4,3.6,12.5c0,3.9-0.7,7.5-2.2,10.7c-2.5,5.6-6.9,8.4-13.1,8.4		h-14.5V87.6z M324.2,120.4c1.6,0,3-0.2,4-0.5c1.9-0.7,3.4-1.9,4.6-3.8c1-1.5,1.6-3.4,2.1-5.8c0.2-1.4,0.4-2.7,0.4-3.9		c0-4.6-0.9-8.2-2.6-10.7s-4.6-3.8-8.5-3.8h-8.6v28.5H324.2z"/>
+<path d="M360.8,108.4c1-0.1,1.7-0.6,2.1-1.3c0.2-0.4,0.3-1,0.3-1.7c0-1.6-0.5-2.7-1.6-3.4c-1.1-0.7-2.6-1.1-4.6-1.1		c-2.3,0-4,0.6-5,1.9c-0.5,0.7-0.9,1.8-1.1,3.2h-4.2c0.1-3.3,1.1-5.7,3.2-7c2-1.3,4.4-2,7.1-2c3.1,0,5.7,0.6,7.6,1.8		c1.9,1.2,2.9,3.1,2.9,5.7v15.6c0,0.5,0.1,0.8,0.3,1.1c0.2,0.3,0.6,0.4,1.2,0.4c0.2,0,0.4,0,0.7,0c0.2,0,0.5-0.1,0.8-0.1v3.4		c-0.7,0.2-1.2,0.3-1.6,0.4c-0.4,0.1-0.9,0.1-1.5,0.1c-1.5,0-2.7-0.6-3.4-1.7c-0.4-0.6-0.6-1.4-0.8-2.5c-0.9,1.2-2.2,2.3-3.9,3.2		s-3.6,1.3-5.6,1.3c-2.5,0-4.5-0.8-6-2.3c-1.6-1.5-2.3-3.4-2.3-5.7c0-2.5,0.8-4.4,2.3-5.8c1.5-1.4,3.6-2.2,6.1-2.5L360.8,108.4z		 M351.4,120.6c0.9,0.8,2.1,1.1,3.4,1.1c1.6,0,3.1-0.4,4.6-1.1c2.5-1.2,3.7-3.2,3.7-6V111c-0.5,0.4-1.2,0.6-2.1,0.9		c-0.9,0.2-1.7,0.4-2.5,0.5l-2.7,0.4c-1.6,0.2-2.8,0.6-3.7,1c-1.4,0.8-2.1,2-2.1,3.8C350,118.8,350.4,119.9,351.4,120.6z"/>
+<path d="M375.7,90.1h4.5v7.5h4.2v3.7h-4.2V119c0,0.9,0.3,1.6,0.9,1.9c0.3,0.2,0.9,0.3,1.7,0.3c0.2,0,0.4,0,0.7,0		c0.2,0,0.5,0,0.9-0.1v3.6c-0.5,0.2-1,0.3-1.6,0.3c-0.6,0.1-1.2,0.1-1.8,0.1c-2.1,0-3.5-0.5-4.2-1.6c-0.7-1.1-1.1-2.5-1.1-4.2v-17.9		h-3.6v-3.7h3.6V90.1z"/>
+<path d="M403.2,108.4c1-0.1,1.7-0.6,2.1-1.3c0.2-0.4,0.3-1,0.3-1.7c0-1.6-0.5-2.7-1.6-3.4c-1.1-0.7-2.6-1.1-4.6-1.1		c-2.3,0-4,0.6-5,1.9c-0.5,0.7-0.9,1.8-1.1,3.2h-4.2c0.1-3.3,1.1-5.7,3.2-7c2-1.3,4.4-2,7.1-2c3.1,0,5.7,0.6,7.6,1.8		c1.9,1.2,2.9,3.1,2.9,5.7v15.6c0,0.5,0.1,0.8,0.3,1.1c0.2,0.3,0.6,0.4,1.2,0.4c0.2,0,0.4,0,0.7,0c0.2,0,0.5-0.1,0.8-0.1v3.4		c-0.7,0.2-1.2,0.3-1.6,0.4c-0.4,0.1-0.9,0.1-1.5,0.1c-1.5,0-2.7-0.6-3.4-1.7c-0.4-0.6-0.6-1.4-0.8-2.5c-0.9,1.2-2.2,2.3-3.9,3.2		s-3.6,1.3-5.6,1.3c-2.5,0-4.5-0.8-6-2.3c-1.6-1.5-2.3-3.4-2.3-5.7c0-2.5,0.8-4.4,2.3-5.8c1.5-1.4,3.6-2.2,6.1-2.5L403.2,108.4z		 M393.8,120.6c0.9,0.8,2.1,1.1,3.4,1.1c1.6,0,3.1-0.4,4.6-1.1c2.5-1.2,3.7-3.2,3.7-6V111c-0.5,0.4-1.2,0.6-2.1,0.9		c-0.9,0.2-1.7,0.4-2.5,0.5l-2.7,0.4c-1.6,0.2-2.8,0.6-3.7,1c-1.4,0.8-2.1,2-2.1,3.8C392.3,118.8,392.8,119.9,393.8,120.6z"/>
+<path d="M435.1,112.8c0.1,2.1,0.6,3.8,1.4,5.1c1.6,2.5,4.4,3.7,8.3,3.7c1.8,0,3.4-0.3,4.9-0.8c2.8-1,4.3-2.9,4.3-5.6		c0-2-0.6-3.5-1.8-4.3c-1.2-0.8-3.1-1.6-5.7-2.2l-4.8-1.1c-3.1-0.7-5.3-1.6-6.6-2.4c-2.2-1.5-3.4-3.9-3.4-6.9c0-3.3,1.1-6.1,3.3-8.2		c2.2-2.1,5.3-3.2,9.4-3.2c3.7,0,6.9,0.9,9.5,2.8c2.6,1.9,3.9,4.9,3.9,9h-4.6c-0.2-2-0.7-3.5-1.5-4.6c-1.4-1.9-3.9-2.9-7.4-2.9		c-2.8,0-4.8,0.6-6,1.9c-1.2,1.2-1.8,2.7-1.8,4.3c0,1.8,0.7,3.1,2.2,4c0.9,0.5,3.1,1.2,6.4,2l5,1.2c2.4,0.6,4.2,1.4,5.5,2.3		c2.2,1.7,3.4,4.2,3.4,7.5c0,4.1-1.4,7-4.3,8.8c-2.9,1.8-6.2,2.7-10,2.7c-4.4,0-7.9-1.2-10.4-3.5c-2.5-2.3-3.7-5.5-3.7-9.5H435.1z"/>
+<path d="M482.8,99.1c1.9,1.5,3,4,3.4,7.6h-4.3c-0.3-1.7-0.9-3-1.8-4.2c-0.9-1.1-2.5-1.7-4.5-1.7c-2.8,0-4.9,1.4-6.1,4.2		c-0.8,1.8-1.2,4.1-1.2,6.8c0,2.7,0.6,5,1.7,6.8c1.1,1.8,2.9,2.8,5.3,2.8c1.9,0,3.3-0.6,4.4-1.7c1.1-1.1,1.8-2.7,2.2-4.7h4.3		c-0.5,3.6-1.7,6.2-3.7,7.9c-2,1.7-4.5,2.5-7.6,2.5c-3.5,0-6.2-1.3-8.3-3.9c-2.1-2.6-3.1-5.8-3.1-9.7c0-4.7,1.1-8.4,3.4-11.1		c2.3-2.6,5.2-4,8.7-4C478.5,96.9,480.9,97.6,482.8,99.1z"/>
+<path d="M490.6,87.6h4.5v5.1h-4.5V87.6z M490.6,97.8h4.5v26.9h-4.5V97.8z"/>
+<path d="M518.3,98.4c1.8,0.9,3.1,2.1,4,3.5c0.9,1.4,1.5,3,1.8,4.8c0.3,1.2,0.4,3.2,0.4,6h-19.3c0.1,2.8,0.7,5,1.9,6.6		s3,2.5,5.5,2.5c2.3,0,4.2-0.8,5.5-2.4c0.8-0.9,1.3-2,1.6-3.2h4.4c-0.1,1-0.5,2.1-1.2,3.3s-1.4,2.2-2.2,3c-1.3,1.3-3,2.3-5,2.7		c-1.1,0.3-2.3,0.4-3.6,0.4c-3.3,0-6.1-1.2-8.4-3.7c-2.3-2.4-3.4-5.9-3.4-10.3c0-4.3,1.2-7.9,3.5-10.6c2.3-2.7,5.3-4.1,9-4.1		C514.8,97.1,516.6,97.5,518.3,98.4z M520,109c-0.2-2-0.6-3.5-1.3-4.7c-1.2-2.2-3.2-3.3-6.1-3.3c-2,0-3.7,0.8-5.1,2.3		c-1.4,1.5-2.1,3.4-2.2,5.7H520z"/>
+<path d="M530.2,97.7h4.2v3.8c1.3-1.6,2.6-2.7,4-3.4s3-1,4.7-1c3.8,0,6.3,1.3,7.6,4c0.7,1.5,1.1,3.6,1.1,6.3v17.3h-4.5v-17		c0-1.6-0.2-3-0.7-4c-0.8-1.7-2.2-2.5-4.3-2.5c-1.1,0-1.9,0.1-2.6,0.3c-1.2,0.4-2.3,1.1-3.2,2.2c-0.7,0.9-1.2,1.8-1.5,2.8		s-0.3,2.3-0.3,4.1v14.2h-4.5V97.7z"/>
+<path d="M559.4,90.1h4.5v7.5h4.2v3.7h-4.2V119c0,0.9,0.3,1.6,0.9,1.9c0.3,0.2,0.9,0.3,1.7,0.3c0.2,0,0.4,0,0.7,0s0.5,0,0.9-0.1v3.6		c-0.5,0.2-1,0.3-1.6,0.3c-0.6,0.1-1.2,0.1-1.8,0.1c-2.1,0-3.5-0.5-4.2-1.6c-0.7-1.1-1.1-2.5-1.1-4.2v-17.9h-3.6v-3.7h3.6V90.1z"/>
+<path d="M572.6,87.6h4.5v5.1h-4.5V87.6z M572.6,97.8h4.5v26.9h-4.5V97.8z"/>
+<path d="M586.5,116.2c0.1,1.5,0.5,2.7,1.1,3.5c1.1,1.5,3.1,2.2,6,2.2c1.7,0,3.2-0.4,4.5-1.1c1.3-0.7,1.9-1.9,1.9-3.4		c0-1.2-0.5-2-1.5-2.7c-0.7-0.4-2-0.8-3.9-1.3l-3.6-0.9c-2.3-0.6-4-1.2-5.1-1.9c-2-1.2-2.9-2.9-2.9-5.1c0-2.6,0.9-4.6,2.8-6.2		c1.8-1.6,4.3-2.4,7.4-2.4c4.1,0,7,1.2,8.8,3.6c1.1,1.5,1.7,3.1,1.6,4.9h-4.2c-0.1-1-0.4-1.9-1.1-2.8c-1-1.2-2.9-1.8-5.5-1.8		c-1.7,0-3,0.3-3.9,1c-0.9,0.7-1.3,1.5-1.3,2.6c0,1.2,0.6,2.1,1.8,2.8c0.7,0.4,1.7,0.8,3,1.1l3,0.7c3.3,0.8,5.5,1.6,6.6,2.3		c1.7,1.2,2.6,3,2.6,5.5c0,2.4-0.9,4.5-2.7,6.2c-1.8,1.8-4.6,2.6-8.3,2.6c-4,0-6.8-0.9-8.5-2.7c-1.7-1.8-2.6-4.1-2.7-6.8H586.5z"/>
+<path d="M610.2,90.1h4.5v7.5h4.2v3.7h-4.2V119c0,0.9,0.3,1.6,0.9,1.9c0.3,0.2,0.9,0.3,1.7,0.3c0.2,0,0.4,0,0.7,0s0.5,0,0.9-0.1v3.6		c-0.5,0.2-1,0.3-1.6,0.3c-0.6,0.1-1.2,0.1-1.8,0.1c-2.1,0-3.5-0.5-4.2-1.6c-0.7-1.1-1.1-2.5-1.1-4.2v-17.9h-3.6v-3.7h3.6V90.1z"/>
+</g>
+</svg>
+</div>
+<table class="cv-contact-table">
+<tr>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:career@jschwarz.me">&nbsp;career@jschwarz.me</a></td>
+<td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
+</tr>
+<tr>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" target="_blank" href="https://linkedin.com/in/j-schwarz">&nbsp;linkedin.com/in/j-schwarz</a></td>
+<td><i class="fa-solid fa-globe fa-fw"></i><a class="no-hyper" target="_blank" href="https://jschwarz.me">&nbsp;jschwarz.me</a></td>
+</tr>
+</table>
+</div>
+<div class="cv-head-right2"></div>
+</div>
+<hr>
+<p>
+6 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">Data Scientist</span> at Gebr. Heinemann, I would be able to leverage my expertise in both instructing and implementing data-driven methodologies (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
+<hr>
+<!-- Chapter: PROFESSIONAL EXPERIENCE -->
+<h2 class="h-first">
+<span class="fa-stack fa-2x small">
+<i class="fa fa-suitcase fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Industry Experience</span>
+</h2>
+<!-- Exp 1: TUHH -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Hamburg University of Technology, </span>
+<span class="cv-entry-location">Hamburg, Germany</span>
+<span class="cv-entry-date">06/2018 - Present</span>
+</p>
+<p class="cv-entry-job-title">
+Program Manager | Research Associate (Institute of Entrepreneurship)
+</p>
+<p class="cv-entry-desc">Conducting collaborative research, teaching students, managing industry projects while pursuing independent research and further academic and data science related qualifications.</p>
+<ul>
+<li>Lead of B2B/B2C industry innovation projects (focus: digital transformation, big data analytics)</li>
+<li>Designed and conducted multiple lecture units and exams in entrepreneurship and data science</li>
+<li>Developed and implemented a <i>Digital Teaching and Learning Ecosystem</i> to teach classes remotely</li>
+<li>Supervised student theses, projects and internships</li>
+<li>Presented at international conferences and about to publish in related journals</li>
+</ul>
+</div>
+<!-- Exp 2: Lufthansa -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Lufthansa Technik AG, </span>
+<span class="cv-entry-location">Miami, USA & Hamburg, Germany</span>
+<span class="cv-entry-date">04/2017 - 03/2018</span>
+</p>
+<p class="cv-entry-job-title">
+Master’s Degree Candidate (dept.: Closed Loop Supply Chain Management)
+</p>
+<p class="cv-entry-desc">Created a custom AI-based solution for reducing cost & response time (in collaboration with IBM Watson).</p>
+<ul>
+<li>Communicated with stakeholders to define project parameters and keep them up to date on project status</li>
+<li>Optimized use of resources to complete projects ahead of deadline and under budget</li>
+<li>Designated resources, assigned tasks and monitored performance for each part of the project</li>
+</ul>
+</div>
+<!-- Exp 3: Horvath -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Horváth & Partners Management Consultants, </span>
+<span class="cv-entry-location">Frankfurt on the Main, Germany</span>
+<span class="cv-entry-date">10/2016 - 02/2017</span>
+</p>
+<p class="cv-entry-job-title">
+Management Consulting, intern (dept.: Transportation, Travel & Logistics)
+</p>
+<p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<ul>
+<li>Operational execution of PMO activities (reporting, budget tracking, preparation and follow-up of meetings)</li>
+<li>Assistance in establishing the project structure</li>
+<li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites</li>
+</ul>
+</div>
+<!-- Exp 4: AUDI -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">AUDI AG, </span>
+<span class="cv-entry-location">Neckarsulm, Germany</span>
+<span class="cv-entry-date">09/2013 - 12/2013</span>
+</p>
+<p class="cv-entry-job-title">
+Process Optimization, intern (dept.: Body Construction A6/A4)
+</p>
+<p class="cv-entry-desc">As coordinator of the Lean Manufacturing Team, I was responsible to help people to understand the Lean Management philosophy and the operational excellence approach of AUDI (Audi Production System, APS).</p>
+<p>
+<ul>
+<li>Training and coaching of lean methods with focus on problem solving, logistics and process synchronisation</li>
+<li>Preparation, implementation and moderation of shopfloor management projects in direct and indirect areas</li>
+<li>Optimizing various processes via process mapping and value stream analysis</li>
+</ul>
+</p>
+</div>
+<br class="pageBreak">
+<!-- Exp 5: IPT / ILT -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Fraunhofer institutes (ILT & IPT), </span>
+<span class="cv-entry-location">Aachen, Germany</span>
+<span class="cv-entry-date">2013 - 2016</span>
+</p>
+<p class="cv-entry-job-title">
+Student assistants
+</p>
+</div>
+<!-- Exp 6: L'Arche -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">L'Arche Greater Vancouver, </span>
+<span class="cv-entry-location">Vancouver, Canada</span>
+<span class="cv-entry-date">08/2010 - 08/2011</span>
+</p>
+<p class="cv-entry-job-title">
+(Live in) Care Assistant (Alternative mandatory community service)
+</p>
+</div>
+<!-- Chapter: TEACHING -->
+<h2>
+<span class="fa-stack fa-2x small">
+<i class="fa fa-chalkboard-teacher fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Teaching Experience</span>
+</h2>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Data Science</span>
+<!-- <span>Hamburg, Germany</span> -->
+<span class="cv-entry-date">10/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Designer & Instructor of multiple business oriented Data Science and Machine Learning courses:</p>
+<ul class="two-col no-bottom">
+<li>Data Science certificate program</li>
+<li>Business Decisions with Machine Learning</li>
+<li>Business Data Science Basics</li>
+<li>Building Business Data Products</li>
+</ul>
+</div>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Entrepreneurship & Innovation</span>
+<!-- <span>Hamburg, Germany</span> -->
+<span class="cv-entry-date">10/2018 - Present</span>
+</p>
+<p class="cv-entry-desc">Teaching students skills needed to build a technology startup from the ground up in varying classes:</p>
+<ul class="two-col no-bottom">
+<li>Startup Engineering</li>
+<li>Sustainable Entrepreunrship</li>
+<li>Technology Entrepreunrship</li>
+<li>Creation of Business Opportunities</li>
+</ul>
+</div>
+<!-- Chapter: EDUCATION -->
+<h2>
+<span class="fa-stack fa-2x small">
+<i class="fa fa-graduation-cap fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Education</span>
+</h2>
+<!-- Exp 0 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">RMIT University Melbourne, </span>
+<span class="cv-entry-location">Melbourne, Australia</span>
+<span class="cv-entry-date">01/2023 - 03/2023</span>
+</p>
+<p class="cv-entry-job-title">
+Visiting Research Scholar
+</p>
+</div>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Hamburg University of Technology, </span>
+<span class="cv-entry-location">Hamburg, Germany</span>
+<span class="cv-entry-date">06/2018 - Present</span>
+</p>
+<p class="cv-entry-job-title">
+Ph.D. Thesis in Innovation Management & Entrepreneurship Science
+</p>
+<p class="cv-entry-desc">Quantitative dissertation (using SQL, R, Python) on the influence of social, structural and reputational effects on entrepreuneurial success.</p>
+<ul>
+<li>Creation of various databases by scraping different data providers and collaborative platforms</li>
+<li>Natural language processing on linkedin and startup databases to extract features for network analysis</li>
+<li>Machine Learning and statistical analysis on large (> 5 billion records) github and stackoverflow datasets</li>
+</ul>
+</div>
+<!-- Exp 2 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Maastricht University, </span>
+<span class="cv-entry-location">Maastricht, Netherlands</span>
+<span class="cv-entry-date">02/2016 - 06/2016</span>
+</p>
+<p class="cv-entry-job-title">
+Visiting Research Scholar
+</p>
+</div>
+<!-- Exp 3 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Polytechnic University of Valencia, </span>
+<span class="cv-entry-location">Valencia, Spain</span>
+<span class="cv-entry-date">02/2014 - 06/2014</span>
+</p>
+<p class="cv-entry-job-title">
+Visiting Research Scholar
+</p>
+</div>
+<!-- Exp 4 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">RWTH Aachen University, </span>
+<span class="cv-entry-location">Aachen, Germany</span>
+<span class="cv-entry-date">09/2011 - 03/2018</span>
+</p>
+<p class="cv-entry-job-title">
+B.Sc. & M.Sc. in Business Administration & Engineering
+</p>
+</div>
+<!-- Chapter: PROF DEV -->
+<h2>
+<span class="fa-stack fa-2x small">
+<i class="fa fa-book fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Professional Development (Certification)</span>
+</h2>
+<!-- Exp 1: BUSINESS SCIENCE UNIVERSITY -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Business Science University, </span>
+<span>remote</span>
+<span class="cv-entry-date">06/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Applying enterprise-grade end-to-end projects (business & finance) using machine learning and web apps.</p>
+<ul class="two-col">
+<li><a class="no-hyper" target="_blank" href="https://www.dropbox.com/s/nlskcws7fsvcsaq/certificate-of-completion-for-ds4b-101-r-business-analysis-with-r.pdf">Business Analysis (Data Science Foundations)</a></li>
+<li>Shiny Web Applications (ML & Business Consulting)</li>
+<li>Data Science for Business (Predictive Dashboards)</li>
+<li>Advanced Web App Development with AWS</li>
+</ul>
+</div>
+<!-- Exp 2: DATACAMP -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">DataCamp, </span>
+<span>remote</span>
+<span class="cv-entry-date">06/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Foundations of data science including statistics, inference, computer science, predictive analytics, machine learning and other technologies to gain insights from big data (using R, Pyhton and SQL).</p>
+<ul class="two-col">
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/34d209775a4c2da4dc9785417d18a38ecae0dee0">Data Analyst with R (19 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/d76aee0c9ae23f645d110c7cc84f29ab56e98ffc">Machine Learning Scientist with R (15 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/0abda65dd30dc07e9042a833613f24e2d922c47c">Data Scientist with R (22 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="">Statistician with R (27 Courses)</li>
+</ul>
+</div>
+</div>

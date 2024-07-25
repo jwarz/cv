@@ -15,7 +15,6 @@ knit: pagedown::chrome_print
 <!-- see lhi.css -->
 
 <!-- CONTENT -->
-<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/klarna.pdf" download="classic.pdf">here</a></div>
 <div class="cv-page-wrapper">
 <div class="cv-head-wrapper">
 <div class="cv-head-left">
@@ -52,16 +51,21 @@ knit: pagedown::chrome_print
 </tr>
 </table>
 </div>
-<div class="cv-head-right2"></div>
+<div></div>
 </div>
 <hr>
-<h2 class="cl-heading">Cover Letter</h2>
-<p>
-Dear Vestas Hiring Team,
+<h2 class="h-first">
+<span>Cover Letter</span>
+</h2>
+<br>
+Dear Hiring Manager,<br><br>
+I am writing to express my interest in the Performance Engineer position at Vestas. With a strong background in data analysis and a passion for deriving insights from large datasets, I am eager to contribute to Vestas' mission of sustainable energy solutions.<br><br>
+My doctoral studies have equipped me with advanced analytical skills and a deep understanding of statistical methods, both of which are essential for effectively extracting insights from complex datasets. The rigors of academic research have honed my ability to approach problems methodically, think critically, and develop innovative solutions — skills that I am eager to apply to real-world challenges at Vestas.<br><br>
+I am particularly drawn to Vestas' commitment to innovation and sustainability. I am excited about the opportunity to apply my academic background and practical expertise in data analysis to contribute to the advancement of renewable energy solutions. I am confident that my analytical skills and dedication to delivering high-quality results align well with the needs of Vestas.<br><br>
+Thank you for considering my application. I look forward to the possibility of discussing how my background and skills can contribute to the success of Vestas. Please feel free to contact me at +49 176 661 899 68 or career@jschwarz.me to schedule a discussion.
+<br><br><br><br>
+Sincerely,<br><br><br>
+Joschka Schwarz
 </p>
-<p>
-5 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
-<p>
-I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">People Data Scientist</span> at Vestas, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).
-</p>
+</div>
 </div>

@@ -68,7 +68,7 @@ knit: pagedown::chrome_print
 <i class="fa fa-suitcase fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Industry Experience</span>
+<span>INDUSTRY EXPERIENCE</span>
 </h2>
 <!-- Exp 1: TUHH -->
 <div class="cv-entry-main">
@@ -171,7 +171,7 @@ Student assistants
 <i class="fa fa-chalkboard-teacher fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Teaching Experience</span>
+<span>TEACHING EXPERIENCE</span>
 </h2>
 <!-- Exp 1 -->
 <div class="cv-entry-main">
@@ -209,7 +209,7 @@ Student assistants
 <i class="fa fa-graduation-cap fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Education</span>
+<span>EDUCATION</span>
 </h2>
 <!-- Exp 0 -->
 <div class="cv-entry-main">
@@ -278,7 +278,7 @@ B.Sc. & M.Sc. in Business Administration & Engineering
 <i class="fa fa-book fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Professional Development (Certification)</span>
+<span>PROFESSIONAL DEVELOPMENT</span>
 </h2>
 <!-- Exp 1: BUSINESS SCIENCE UNIVERSITY -->
 <div class="cv-entry-main">

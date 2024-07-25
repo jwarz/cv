@@ -25,7 +25,7 @@ knit: pagedown::chrome_print
 </div>
 <table class="cv-contact-table">
 <tr>
-<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:joschka.schwarz@tuhh.de">&nbsp;joschka.schwarz@tuhh.de</a></td>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:career@jschwarz.me">&nbsp;career@jschwarz.me</a></td>
 <td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
 </tr>
 <tr>
@@ -38,8 +38,8 @@ knit: pagedown::chrome_print
 </div>
 <hr>
 <p>
-5 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">Data Analytics Engineer</span> at Nordex, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
+6 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">Product Manager (Digital and Data-Driven Products)</span> at Nordex, I would be able to leverage my expertise in both instructing and implementing data-driven methodologies (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>). Combining this expertise with my passion for wind turbines, I'm eager to contribute meaningfully to Nordex's mission in revolutionizing the renewable energy landscape.</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="h-first">

@@ -1,0 +1,298 @@
+---
+pagetitle: Joschka's CV
+output:
+  pagedown::html_paged:
+    css: ["../docs/css/style.css", "../docs/css/themes/barclaysimpson.css", "https://use.fontawesome.com/releases/v6.1.1/css/all.css"]
+    number_sections: false
+links-to-footnotes: true
+knit: pagedown::chrome_print
+---
+
+<!-- disable phone number linking in Mobile Safari? -->
+<meta name="format-detection" content="telephone=no">
+
+<!-- Load CSS & Fonts -->
+<!-- see lhi.css -->
+
+<!-- CONTENT -->
+<div class="pdf-link"><i class="fas fa-file-pdf fa-fw"></i>&nbsp; A PDF version is available <a href="https://github.com/jwarz/cv/raw/main/pdf/barclaysimpsons.pdf" download="classic.pdf">here</a></div>
+<div class="cv-page-wrapper">
+<div class="cv-head-wrapper">
+<div class="cv-head-left">
+<div class="svg-container-outer">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 335.5 109.2" >
+<style type="text/css">
+.st0{fill:#F36B21;}
+</style>
+<path class="st0" d="M325.2,98.9h10.3v10.3h-10.3V98.9z"/>
+<g>
+<path d="M31.5,0.8v27.6c0,11.4-6.2,18.2-17.5,18.2h-0.1c-5.7,0-10.2-1.6-13.6-5.3l5.3-7.9c1.8,2.5,4.4,4,8.3,4H14c5.3,0,7.9-3.1,7.9-8.9V9.8H7.4v-9H31.5z"/>
+<path d="M61.8,0c14.4,0,23.1,9.6,23.1,23.2v0.1c0,13.7-8.8,23.3-23.1,23.3h-0.1c-14.4,0-23.1-9.6-23.1-23.3v-0.1C38.6,9.6,47.3,0,61.8,0L61.8,0z M61.8,37.6c8.4,0,13.5-5.9,13.5-14.3v-0.1C75.3,14.9,70.2,9,61.8,9h-0.1c-8.4,0-13.5,5.9-13.5,14.2v0.1C48.2,31.7,53.3,37.6,61.8,37.6L61.8,37.6z"/>
+<path d="M120.9,13.3c-3-3.3-6.4-4.7-11.3-4.7h-0.1c-5.2,0-8.4,1.6-8.4,4.4c0,2,1.2,3.4,6.1,4.5l8.7,1.9c8.8,1.9,11.2,7.9,11.2,13.9c0,8.4-7.4,13.3-17.7,13.3h-0.1c-9.6,0-16.3-3.3-19.8-9.8l7.9-5.7c2.9,5.3,7,7,12.1,7h0.1c5.1,0,7.8-1.9,7.8-5c0-2.7-1.8-4.3-5.5-5.2l-10-2.5c-7.5-1.8-10.4-6.5-10.4-12C91.5,4.6,99,0,109.9,0h0.1c7.1,0,12.8,2.1,16.5,6.2L120.9,13.3z"/>
+<path d="M166,12.7c-3-2.5-6.5-3.7-10.5-3.7h-0.1c-8.4,0-13.5,6.2-13.5,14.2v0.1c0.1,8.2,5.2,14.3,13.5,14.3h0.1c4.4,0,7.7-1.4,10.5-3.7l5.3,7.2c-4,3.6-9.3,5.5-15.7,5.5h-0.1c-14.4,0-23.1-9.6-23.1-23.3v-0.1c0-13.6,8.7-23.2,23.1-23.2h0.1c5.9,0,11.5,1.6,15.7,5.5L166,12.7z"/>
+<path d="M208.5,18.7V0.8h9.6v45h-9.6v-18h-20.4v18h-9.6v-45h9.6v17.9H208.5z"/>
+<path d="M257.3,0.8h10.5l-14.3,23.3l14.3,21.7h-10.6l-11.6-17.6h-7.3v17.6h-9.6v-45h9.6v18.3h8L257.3,0.8z"/>
+<path d="M318.3,45.8h-10.1l-3.6-9.4h-19.6l-3.6,9.4h-10.1l18.3-45h10.3L318.3,45.8z M294.7,10.7L288,27.9h13.5L294.7,10.7z"/>
+</g>
+<g>
+<path d="M31.3,75.7C28.3,72.5,25,71,20,71H20c-5.2,0-8.4,1.6-8.4,4.4c0,2,1.2,3.4,6.1,4.5l8.7,2c8.8,1.9,11.2,7.9,11.2,13.9c0,8.4-7.4,13.3-17.7,13.3h-0.1c-9.6,0-16.3-3.3-19.8-9.8l7.9-5.7c2.9,5.3,7,7,12.1,7H20c5.1,0,7.8-1.9,7.8-5c0-2.7-1.8-4.3-5.5-5.2l-10-2.5C4.8,86,1.9,81.3,1.9,75.8c0-8.8,7.5-13.3,18.5-13.3h0.1c7.1,0,12.8,2.1,16.5,6.2L31.3,75.7z"/>
+<path d="M75.2,75.1c-3-2.5-6.5-3.7-10.5-3.7h-0.1c-8.4,0-13.5,6.2-13.5,14.2v0.1c0.1,8.2,5.2,14.3,13.5,14.3h0.1c4.4,0,7.7-1.4,10.5-3.7l5.3,7.2c-4,3.6-9.3,5.5-15.7,5.5h-0.1c-14.4,0-23.1-9.6-23.1-23.3v-0.1c0-13.6,8.7-23.2,23.1-23.2h0.1c5.9,0,11.5,1.6,15.7,5.5L75.2,75.1z"/>
+<path d="M116.4,81.1V63.2h9.6v45h-9.6v-18H96v18h-9.6v-45H96v17.9H116.4z"/>
+<path d="M155.3,73.4h8.6l8.4,20.8l4.6-30.9h10.1l-8.9,45h-8.6l-9.8-24.7h-0.1l-9.8,24.7h-8.6l-8.9-45h10l4.7,30.9L155.3,73.4z"/>
+<path d="M234.1,108.2H224l-3.6-9.4h-19.6l-3.6,9.4h-10.1l18.3-45h10.3L234.1,108.2z M210.6,73.1l-6.8,17.2h13.5L210.6,73.1z"/>
+<path d="M266.4,108.2l-9.1-14.6h-8.1v14.6h-9.6v-45h18.5c11.5,0,17.9,5.8,17.9,15.3v0.1c0,6.9-3.3,11.6-9.5,13.8l10.6,15.8H266.4zM249.3,71.9v13.5h8.8c5.1,0,8.3-1.9,8.3-6.8v-0.1c0-4.7-3.2-6.7-8.3-6.7H249.3z"/>
+<path d="M293.8,99.4h24.6v8.8h-37.1v-8.8l22-25.6l1.8-1.8h-23.5v-8.8h35.9V72l-22,25.6L293.8,99.4z"/>
+</g>
+</svg>
+</div>
+<table class="cv-contact-table">
+<tr>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:career@jschwarz.me">&nbsp;career@jschwarz.me</a></td>
+<td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
+</tr>
+<tr>
+<td><i class="fa-brands fa-linkedin fa-fw"></i><a class="no-hyper" target="_blank" href="https://linkedin.com/in/j-schwarz">&nbsp;linkedin.com/in/j-schwarz</a></td>
+<td><i class="fa-solid fa-globe fa-fw"></i><a class="no-hyper" target="_blank" href="https://jschwarz.me">&nbsp;jschwarz.me</a></td>
+</tr>
+</table>
+</div>
+<div class="cv-head-right2"></div>
+</div>
+<hr>
+<p>
+7 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
+<p>Seeking a role to lead analytics projects, utilizing skills from practice and academia. As <span class="cv-entry-employer">Data Science Lead</span> at your company, I would be able to leverage my expertise in both instructing and implementing data-driven methodologies (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
+<hr>
+<!-- Chapter: PROFESSIONAL EXPERIENCE -->
+<h2 class="h-first">
+<span class="fa-stack fa-2x small">
+<i class="fa fa-suitcase fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Industry Experience<span class="orange-dot">.</span></span>
+</h2>
+<!-- Exp 1: TUHH -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Hamburg University of Technology, </span>
+<span class="cv-entry-location">Hamburg, Germany</span>
+<span class="cv-entry-date">06/2018 - Present</span>
+</p>
+<p class="cv-entry-job-title">
+Program Manager | Research Associate (Institute of Entrepreneurship)
+</p>
+<p class="cv-entry-desc">Engaged in collaborative research, teaching and industry project management alongside pursuing independent research and advancing academic and data science qualifications.</p>
+<ul>
+<li>Lead B2B/B2C industry innovation projects with a focus on digital transformation and big data analytics</li>
+<li>Designed and conducted multiple lecture units and exams in entrepreneurship and data science</li>
+<li>Pioneered the development of a <i>Digital Teaching and Learning Ecosystem</i> to facilitate remote classes</li>
+<li>Mentored student theses, projects and internships, fostering growth and professional development</li>
+<li>Provided startup consulting services, offering expertise in entrepreneurship and data science strategies</li>
+</ul>
+</div>
+<!-- Exp 2: Lufthansa -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Lufthansa Technik AG, </span>
+<span class="cv-entry-location">Miami, USA & Hamburg, Germany</span>
+<span class="cv-entry-date">04/2017 - 03/2018</span>
+</p>
+<p class="cv-entry-job-title">
+Master’s Degree Candidate (dept.: Closed Loop Supply Chain Management)
+</p>
+<p class="cv-entry-desc">Developed a custom AI-driven solution, in partnership with IBM Watson, to streamline cost & response time.</p>
+<ul>
+<li>Liaised with stakeholders to delineate project scope and ensure ongoing updates on progress</li>
+<li>Strategically managed resources, delivering projects ahead of schedule and within budget</li>
+<li>Orchestrated resource allocation, task delegation, and performance monitoring throughout</li>
+</ul>
+</div>
+<!-- Exp 3: Horvath -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Horváth & Partners Management Consultants, </span>
+<span class="cv-entry-location">Frankfurt on the Main, Germany</span>
+<span class="cv-entry-date">10/2016 - 02/2017</span>
+</p>
+<p class="cv-entry-job-title">
+Management Consulting, intern (dept.: Transportation, Travel & Logistics)
+</p>
+<p class="cv-entry-desc">Managed PMO for a large-scale project developing new location concepts for a leading European railroad company.</p>
+<ul>
+<li>Led agile PMO operations including reporting, budget tracking and meeting facilitation</li>
+<li>Contributed to establishing the project's framework and processes for seamless execution</li>
+<li>Conducted profitability assessments and capacity analyses for each site, informing strategic decisions</li>
+</ul>
+</div>
+<!-- Exp 4: AUDI -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">AUDI AG, </span>
+<span class="cv-entry-location">Neckarsulm, Germany</span>
+<span class="cv-entry-date">09/2013 - 12/2013</span>
+</p>
+<p class="cv-entry-job-title">
+Process Optimization, intern (dept.: Body Construction A6/A4)
+</p>
+<p class="cv-entry-desc">As the Lean Manufacturing Team coordinator, I facilitated the adoption of Lean Management principles and operational excellence strategies at AUDI, focusing on the Audi Production System (APS).</p>
+<p>
+<ul>
+<li>Taught lean methodologies, focusing on problem-solving, logistics, and process synchronization</li>
+<li>Planned and moderated shopfloor management projects across both direct and indirect operational areas</li>
+<li>Enhanced processes through detailed process mapping and value stream analysis</li>
+</ul>
+</p>
+</div>
+<!-- Exp 6: L'Arche -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">L'Arche Greater Vancouver, </span>
+<span class="cv-entry-location">Vancouver, Canada</span>
+<span class="cv-entry-date">08/2010 - 08/2011</span>
+</p>
+<p class="cv-entry-job-title">
+(Live in) Care Assistant (Alternative mandatory community service)
+</p>
+</div>
+<!-- Chapter: TEACHING -->
+<h2>
+<span class="fa-stack fa-2x small">
+<i class="fa fa-chalkboard-teacher fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Teaching Experience<span class="orange-dot">.</span></span>
+</h2>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Data Science</span>
+<!-- <span>Hamburg, Germany</span> -->
+<span class="cv-entry-date">10/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Designed and instructed a variety of business-oriented Data Science and Machine Learning courses, tailored to meet the specific needs and objectives of diverse organizations. These courses encompassed a range of topics, including data analysis, predictive modeling, statistical techniques and advanced ML algorithms:</p>
+<ul class="two-col no-bottom">
+<li>Data Science certificate program</li>
+<li>Business Decisions with Machine Learning</li>
+<li>Business Data Science Basics</li>
+<li>Building Business Data Products</li>
+</ul>
+</div>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Entrepreneurship & Innovation</span>
+<!-- <span>Hamburg, Germany</span> -->
+<span class="cv-entry-date">10/2018 - Present</span>
+</p>
+<p class="cv-entry-desc">Instructing students in the essential skills necessary for launching a technology startup. These classes delve into various aspects crucial for building a successful startup, including ideation, market research, product development, marketing strategies, financial planning and entrepreneurial mindset cultivation:</p>
+<ul class="two-col no-bottom">
+<li>Startup Engineering</li>
+<li>Sustainable Entrepreunrship</li>
+<li>Technology Entrepreunrship</li>
+<li>Creation of Business Opportunities</li>
+</ul>
+</div>
+<!-- Chapter: EDUCATION -->
+<h2>
+<span class="fa-stack fa-2x small">
+<i class="fa fa-graduation-cap fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Education<span class="orange-dot">.</span></span>
+</h2>
+<!-- Exp 0 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">RMIT University Melbourne, </span>
+<span class="cv-entry-location">Melbourne, Australia</span>
+<span class="cv-entry-date">01/2023 - 03/2023</span>
+</p>
+<p class="cv-entry-job-title">
+Visiting Research Scholar
+</p>
+</div>
+<!-- Exp 1 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Hamburg University of Technology, </span>
+<span class="cv-entry-location">Hamburg, Germany</span>
+<span class="cv-entry-date">06/2018 - Present</span>
+</p>
+<p class="cv-entry-job-title">
+Ph.D. Thesis in Innovation Management & Entrepreneurship Science
+</p>
+<p class="cv-entry-desc">Quantitative dissertation (using SQL, R, Python) on the influence of social, structural and reputational effects on entrepreuneurial success.</p>
+<ul>
+<li>Utilized web scraping techniques to gather large-scale datasets (> 5 bn records) from various sources</li>
+<li>Employed clustering algorithms and dimensionality reduction techniques to categorize similar data points</li>
+<li>Developed forecasting models using time-series analysis and predictive analytics to project future trends</li>
+<li>Applied natural language processing (NLP) techniques to extract insights from textual data sources</li>
+<li>Implemented machine learning algorithms for predictive modeling and classification tasks</li>
+<li>Utilized data visualization techniques to present findings in a clear and insightful manner</li>
+<li>Collaborated with interdisciplinary teams to leverage expertise and perspectives from diverse fields</li>
+</ul>
+</div>
+<!-- Exp 2 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Maastricht University, </span>
+<span class="cv-entry-location">Maastricht, Netherlands</span>
+<span class="cv-entry-date">02/2016 - 06/2016</span><br>
+<span class="cv-entry-employer">Polytechnic University of Valencia, </span>
+<span class="cv-entry-location">Valencia, Spain</span>
+<span class="cv-entry-date">02/2014 - 06/2014</span>
+</p>
+<p class="cv-entry-job-title">
+Visiting Research Scholar
+</p>
+</div>
+<!-- Exp 4 -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">RWTH Aachen University, </span>
+<span class="cv-entry-location">Aachen, Germany</span>
+<span class="cv-entry-date">09/2011 - 03/2018</span>
+</p>
+<p class="cv-entry-job-title">
+B.Sc. & M.Sc. in Business Administration & Engineering
+</p>
+</div>
+<!-- Chapter: PROF DEV -->
+<h2>
+<span class="fa-stack fa-2x small">
+<i class="fa fa-book fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
+<i class="fa-solid fa-square fa-stack-2x fn-border" style="--fa-stack-z-index: 1;"></i>
+</span>
+<span>Professional Development (Certification)<span class="orange-dot">.</span></span>
+</h2>
+<!-- Exp 1: BUSINESS SCIENCE UNIVERSITY -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">Business Science University, </span>
+<span>remote</span>
+<span class="cv-entry-date">06/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Completed certification in implementing enterprise-grade end-to-end projects in business and finance, integrating machine learning methodologies and web applications:</p>
+<ul class="two-col">
+<li><a class="no-hyper" target="_blank" href="https://www.dropbox.com/s/nlskcws7fsvcsaq/certificate-of-completion-for-ds4b-101-r-business-analysis-with-r.pdf">Business Analysis (Data Science Foundations)</a></li>
+<li>Shiny Web Applications (ML & Business Consulting)</li>
+<li>Data Science for Business (Predictive Dashboards)</li>
+<li>Advanced Web App Development with AWS</li>
+</ul>
+</div>
+<!-- Exp 2: DATACAMP -->
+<div class="cv-entry-main">
+<p class="cv-entry-top-line">
+<span class="cv-entry-employer">DataCamp, </span>
+<span>remote</span>
+<span class="cv-entry-date">06/2019 - Present</span>
+</p>
+<p class="cv-entry-desc">Achieved certification in the various Data Science tracks, encompassing statistics, inference, predictive analytics, ML and other technologies essential for deriving insights from large datasets (R, Pyhton and SQL):</p>
+<ul class="two-col">
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/34d209775a4c2da4dc9785417d18a38ecae0dee0">Data Analyst with R (19 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/d76aee0c9ae23f645d110c7cc84f29ab56e98ffc">Machine Learning Scientist with R (15 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/0abda65dd30dc07e9042a833613f24e2d922c47c">Data Scientist with R (22 Courses)</a></li>
+<li><a class="no-hyper" target="_blank" href="">Statistician with R (27 Courses)</li>
+</ul>
+</div>
+</div>

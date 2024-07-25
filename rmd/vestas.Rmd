@@ -43,7 +43,7 @@ knit: pagedown::chrome_print
 </div>
 <table class="cv-contact-table">
 <tr>
-<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:joschka.schwarz@tuhh.de">&nbsp;joschka.schwarz@tuhh.de</a></td>
+<td><i class="fa fa-envelope fa-fw"></i><a class="no-hyper" href="mailto:career@jschwarz.me">&nbsp;career@jschwarz.me</a></td>
 <td><i class="fa fa-phone fa-fw"></i> +49 40 42878 – 4697</td>
 </tr>
 <tr>
@@ -56,8 +56,8 @@ knit: pagedown::chrome_print
 </div>
 <hr>
 <p>
-5 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
-<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">People Data Scientist</span> at Vestas, I would be able to leverage my experience in teaching and applying data-driven techniques and would be able to solve the problems I most enjoy working on (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
+7 years' experience working with data. Expertise in quantitative modeling, growing people and making data-driven decisions. Currently working as a <span class="cv-entry-employer">Research Associate (Ph.D. Candidate)</span> at the intersection of computer science, statistics and the social sciences as member of both the <span class="cv-entry-employer">Entrepreneurship & Data Science</span> groups.</p>
+<p>I am looking for a position where I can use the skills that I have developed during my years in practice and academia to lead projects in the frame of analytics. As <span class="cv-entry-employer">Performance Engineer</span> at Vestas, I would be able to leverage my expertise in both instructing and implementing data-driven methodologies (technologies used mostly: <span class="cv-entry-employer">R, SQL and Python</span>).</p>
 <hr>
 <!-- Chapter: PROFESSIONAL EXPERIENCE -->
 <h2 class="h-first">
@@ -65,7 +65,7 @@ knit: pagedown::chrome_print
 <i class="fa fa-suitcase fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Industry Experience.</span>
+<span>Industry Experience</span>
 </h2>
 <!-- Exp 1: TUHH -->
 <div class="cv-entry-main">
@@ -77,13 +77,12 @@ knit: pagedown::chrome_print
 <p class="cv-entry-job-title">
 Program Manager | Research Associate (Institute of Entrepreneurship)
 </p>
-<p class="cv-entry-desc">Conducting collaborative research, teaching students, managing industry projects while pursuing independent research and further academic and data science related qualifications.</p>
+<p class="cv-entry-desc">Engaged in collaborative research, teaching and industry project management alongside pursuing independent research and advancing academic and data science qualifications.</p>
 <ul>
-<li>Lead of B2B/B2C industry innovation projects (focus: digital transformation, big data analytics)</li>
-<li>Designed and conducted multiple lecture units and exams in entrepreneurship and data science</li>
-<li>Developed and implemented a <i>Digital Teaching and Learning Ecosystem</i> to teach classes remotely</li>
-<li>Supervised student theses, projects and internships</li>
-<li>Presented at international conferences and about to publish in related journals</li>
+<li>Provided startup consulting services, offering expertise in entrepreneurship and data science strategies</li>
+<li>Lead B2B/B2C industry innovation projects with a focus on digital transformation and big data analytics</li>
+<li>Pioneered the development of a <i>Digital Teaching and Learning Ecosystem</i> to facilitate remote classes</li>
+<li>Mentored student theses, projects and internships, fostering growth and professional development</li>
 </ul>
 </div>
 <!-- Exp 2: Lufthansa -->
@@ -96,11 +95,11 @@ Program Manager | Research Associate (Institute of Entrepreneurship)
 <p class="cv-entry-job-title">
 Master’s Degree Candidate (dept.: Closed Loop Supply Chain Management)
 </p>
-<p class="cv-entry-desc">Created a custom AI-based solution for reducing cost & response time (in collaboration with IBM Watson).</p>
+<p class="cv-entry-desc">Developed a custom AI-driven solution, in partnership with IBM Watson, to streamline cost & response time.</p>
 <ul>
-<li>Communicated with stakeholders to define project parameters and keep them up to date on project status</li>
-<li>Optimized use of resources to complete projects ahead of deadline and under budget</li>
-<li>Designated resources, assigned tasks and monitored performance for each part of the project</li>
+<li>Liaised with stakeholders to delineate project scope and ensure ongoing updates on progress</li>
+<li>Strategically managed resources, delivering projects ahead of schedule and within budget</li>
+<li>Orchestrated resource allocation, task delegation, and performance monitoring throughout</li>
 </ul>
 </div>
 <!-- Exp 3: Horvath -->
@@ -113,11 +112,11 @@ Master’s Degree Candidate (dept.: Closed Loop Supply Chain Management)
 <p class="cv-entry-job-title">
 Management Consulting, intern (dept.: Transportation, Travel & Logistics)
 </p>
-<p class="cv-entry-desc">Worked as a PMO manager on a project for the development of new location concepts of a large European railroad company, replacing the entire existing infrastructure of this major corporate.</p>
+<p class="cv-entry-desc">Managed PMO for a large-scale project developing new location concepts for a leading European railroad company, involving infrastructure overhaul.</p>
 <ul>
-<li>Operational execution of PMO activities (reporting, budget tracking, preparation and follow-up of meetings)</li>
-<li>Assistance in establishing the project structure</li>
-<li>Preparation of profitability calculations and capacity / utilization analyses for the individual sites</li>
+<li>Led agile PMO operations including reporting, budget tracking and meeting facilitation</li>
+<li>Contributed to establishing the project's framework and processes for seamless execution</li>
+<li>Conducted profitability assessments and capacity analyses for each site, informing strategic decisions</li>
 </ul>
 </div>
 <!-- Exp 4: AUDI -->
@@ -130,27 +129,16 @@ Management Consulting, intern (dept.: Transportation, Travel & Logistics)
 <p class="cv-entry-job-title">
 Process Optimization, intern (dept.: Body Construction A6/A4)
 </p>
-<p class="cv-entry-desc">As coordinator of the Lean Manufacturing Team, I was responsible to help people to understand the Lean Management philosophy and the operational excellence approach of AUDI (Audi Production System, APS).</p>
+<p class="cv-entry-desc">As the Lean Manufacturing Team coordinator, I facilitated the adoption of Lean Management principles and operational excellence strategies at AUDI, focusing on the Audi Production System (APS).</p>
 <p>
 <ul>
-<li>Training and coaching of lean methods with focus on problem solving, logistics and process synchronisation</li>
-<li>Preparation, implementation and moderation of shopfloor management projects in direct and indirect areas</li>
-<li>Optimizing various processes via process mapping and value stream analysis</li>
+<li>Taught lean methodologies, focusing on problem-solving, logistics, and process synchronization</li>
+<li>Planned and moderated shopfloor management projects across both direct and indirect operational areas</li>
+<li>Enhanced processes through detailed process mapping and value stream analysis</li>
 </ul>
 </p>
 </div>
-<br class="pageBreak">
-<!-- Exp 5: IPT / ILT -->
-<div class="cv-entry-main">
-<p class="cv-entry-top-line">
-<span class="cv-entry-employer">Fraunhofer institutes (ILT & IPT), </span>
-<span class="cv-entry-location">Aachen, Germany</span>
-<span class="cv-entry-date">2013 - 2016</span>
-</p>
-<p class="cv-entry-job-title">
-Student assistants
-</p>
-</div>
+<!-- <br class="pageBreak"> -->
 <!-- Exp 6: L'Arche -->
 <div class="cv-entry-main">
 <p class="cv-entry-top-line">
@@ -168,7 +156,7 @@ Student assistants
 <i class="fa fa-chalkboard-teacher fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Teaching Experience.</span>
+<span>Teaching Experience</span>
 </h2>
 <!-- Exp 1 -->
 <div class="cv-entry-main">
@@ -177,7 +165,7 @@ Student assistants
 <!-- <span>Hamburg, Germany</span> -->
 <span class="cv-entry-date">10/2019 - Present</span>
 </p>
-<p class="cv-entry-desc">Designer & Instructor of multiple business oriented Data Science and Machine Learning courses:</p>
+<p class="cv-entry-desc">Designed and instructed a variety of business-oriented Data Science and Machine Learning courses, tailored to meet the specific needs and objectives of diverse organizations. These courses encompassed a range of topics, including data analysis, predictive modeling, statistical techniques and advanced ML algorithms:</p>
 <ul class="two-col no-bottom">
 <li>Data Science certificate program</li>
 <li>Business Decisions with Machine Learning</li>
@@ -192,7 +180,7 @@ Student assistants
 <!-- <span>Hamburg, Germany</span> -->
 <span class="cv-entry-date">10/2018 - Present</span>
 </p>
-<p class="cv-entry-desc">Teaching students skills needed to build a technology startup from the ground up in varying classes:</p>
+<p class="cv-entry-desc">Instructing students in the essential skills necessary for launching a technology startup. These classes delve into various aspects crucial for building a successful startup, including ideation, market research, product development, marketing strategies, financial planning and entrepreneurial mindset cultivation:</p>
 <ul class="two-col no-bottom">
 <li>Startup Engineering</li>
 <li>Sustainable Entrepreunrship</li>
@@ -206,7 +194,7 @@ Student assistants
 <i class="fa fa-graduation-cap fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Education.</span>
+<span>Education</span>
 </h2>
 <!-- Exp 0 -->
 <div class="cv-entry-main">
@@ -231,9 +219,14 @@ Ph.D. Thesis in Innovation Management & Entrepreneurship Science
 </p>
 <p class="cv-entry-desc">Quantitative dissertation (using SQL, R, Python) on the influence of social, structural and reputational effects on entrepreuneurial success.</p>
 <ul>
-<li>Creation of various databases by scraping different data providers and collaborative platforms</li>
-<li>Natural language processing on linkedin and startup databases to extract features for network analysis</li>
-<li>Machine Learning and statistical analysis on large (> 5 billion records) github and stackoverflow datasets</li>
+<li>Utilized web scraping techniques to gather large-scale datasets (> 5 bn records) from various sources</li>
+<li>Employed clustering algorithms and dimensionality reduction techniques to categorize similar data points</li>
+<li>Developed forecasting models using time-series analysis and predictive analytics to project future trends</li>
+<li>Applied natural language processing (NLP) techniques to extract insights from textual data sources</li>
+<li>Implemented machine learning algorithms for predictive modeling and classification tasks</li>
+<li>Utilized data visualization techniques to present findings in a clear and insightful manner</li>
+<li>Collaborated with interdisciplinary teams to leverage expertise and perspectives from diverse fields</li>
+</ul>
 </ul>
 </div>
 <!-- Exp 2 -->
@@ -275,7 +268,7 @@ B.Sc. & M.Sc. in Business Administration & Engineering
 <i class="fa fa-book fa-stack-1x" style="--fa-stack-z-index: 2;"></i>
 <i class="fa-solid fa-square fa-stack-2x" style="--fa-stack-z-index: 1;"></i>
 </span>
-<span>Professional Development (Certification).</span>
+<span>Professional Development (Certification)</span>
 </h2>
 <!-- Exp 1: BUSINESS SCIENCE UNIVERSITY -->
 <div class="cv-entry-main">
@@ -284,7 +277,7 @@ B.Sc. & M.Sc. in Business Administration & Engineering
 <span>remote</span>
 <span class="cv-entry-date">06/2019 - Present</span>
 </p>
-<p class="cv-entry-desc">Applying enterprise-grade end-to-end projects (business & finance) using machine learning and web apps.</p>
+<p class="cv-entry-desc">Completed certification in implementing enterprise-grade end-to-end projects in business and finance, integrating machine learning methodologies and web applications:</p>
 <ul class="two-col">
 <li><a class="no-hyper" target="_blank" href="https://www.dropbox.com/s/nlskcws7fsvcsaq/certificate-of-completion-for-ds4b-101-r-business-analysis-with-r.pdf">Business Analysis (Data Science Foundations)</a></li>
 <li>Shiny Web Applications (ML & Business Consulting)</li>
@@ -299,7 +292,7 @@ B.Sc. & M.Sc. in Business Administration & Engineering
 <span>remote</span>
 <span class="cv-entry-date">06/2019 - Present</span>
 </p>
-<p class="cv-entry-desc">Foundations of data science including statistics, inference, computer science, predictive analytics, machine learning and other technologies to gain insights from big data (using R, Pyhton and SQL).</p>
+<p class="cv-entry-desc">Achieved certification in the various Data Science tracks, encompassing statistics, inference, predictive analytics, ML and other technologies essential for deriving insights from large datasets (R, Pyhton and SQL):</p>
 <ul class="two-col">
 <li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/34d209775a4c2da4dc9785417d18a38ecae0dee0">Data Analyst with R (19 Courses)</a></li>
 <li><a class="no-hyper" target="_blank" href="https://www.datacamp.com/statement-of-accomplishment/track/d76aee0c9ae23f645d110c7cc84f29ab56e98ffc">Machine Learning Scientist with R (15 Courses)</a></li>
